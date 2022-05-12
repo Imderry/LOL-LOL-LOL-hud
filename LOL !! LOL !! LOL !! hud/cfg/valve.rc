@@ -1,0 +1,3 @@
+hud_reloadscheme
+exec autoexec.cfg
+tf_hud_target_id_disable_floating_health 1
