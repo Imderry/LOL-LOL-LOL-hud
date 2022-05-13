@@ -80,7 +80,7 @@
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"65"	
 		"ypos"			"116"
-		"zpos"			"1"
+		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -109,8 +109,8 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"59"
-			"zpos"			"5"
+			"xpos"			"65"
+			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
 			"image"			"../hud/cart_track_neutral_opaque"
@@ -142,10 +142,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
 		"xpos"			"65"	
-		"ypos"			"116"	
+		"ypos"			"110"	
 		"zpos"			"1"
-		"wide"			"18"		
-		"tall"			"18"
+		"wide"			"30"		
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -253,10 +253,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
+				"xpos"			"14"
 				"ypos"			"43"
-				"wide"			"30"
-				"tall"			"30"
+				"wide"			"22"
+				"tall"			"22"
 			}						
 		}
 		
@@ -290,10 +290,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
-				"ypos"			"71"
-				"wide"			"30"
-				"tall"			"30"
+				"xpos"			"14"
+				"ypos"			"77"
+				"wide"			"22"
+				"tall"			"22"
 			}			
 		}
 		
@@ -392,7 +392,7 @@
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"
-				"xpos"			"25"
+				"xpos"			"21"
 				"wide"			"30"
 				"tall"			"10"
 			}			
@@ -460,8 +460,8 @@
 			{
 				"xpos"			"9"
 				"ypos"			"2"			
-				"wide"			"65"			
-				"tall"			"42"			
+				"wide"			"0"			
+				"tall"			"0"			
 			}	
 						
 			"Teardrop"
