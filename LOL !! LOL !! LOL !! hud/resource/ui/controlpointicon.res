@@ -7,8 +7,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"21"
-		"tall"		"21"
+		"wide"		"25"
+		"tall"		"25"
 		"visible"	"1"
 		"enabled"	"1"
 	}
