@@ -509,12 +509,12 @@
 		"xpos"			"c-300"
 		"ypos"			"12"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"StoreDarkTan"
 	}
 	
@@ -522,7 +522,7 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"ClassFilterNavPanel"
-		"xpos"				"c-300"
+		"xpos"				"cs-0.5"
 		"ypos"				"30"
 		"zpos"				"1"
 		"wide"				"225"
@@ -591,9 +591,9 @@
 			"all"
 			{
 				"userdata"			"0"
-				"image_default"		"class_icons/filter_all"
-				"image_armed"		"class_icons/filter_all"
-				"image_selected"	"class_icons/filter_all_on"
+				"image_default"		"replay/thumbnails/store/tflogo_gray"
+				"image_armed"		"replay/thumbnails/store/tflogo_gray"
+				"image_selected"	"replay/thumbnails/store/tflogo"
 				"tooltiptext"		"#TF_Items_All"
 				
 				"SubImage"
@@ -604,9 +604,9 @@
 			"scout"
 			{
 				"userdata"			"1"
-				"image_default"		"class_icons/filter_scout"
-				"image_armed"		"class_icons/filter_scout"
-				"image_selected"	"class_icons/filter_scout_on"
+				"image_default"		"replay/thumbnails/store/scout_gray"
+				"image_armed"		"replay/thumbnails/store/scout_gray"
+				"image_selected"	"replay/thumbnails/store/scout"
 				"tooltiptext"		"#TF_Items_Scout"
 				
 				"SubImage"
@@ -617,9 +617,9 @@
 			"soldier"
 			{
 				"userdata"			"3"
-				"image_default"		"class_icons/filter_soldier"
-				"image_armed"		"class_icons/filter_soldier"
-				"image_selected"	"class_icons/filter_soldier_on"
+				"image_default"		"replay/thumbnails/store/soldier_gray"
+				"image_armed"		"replay/thumbnails/store/soldier_gray"
+				"image_selected"	"replay/thumbnails/store/soldier"
 				"tooltiptext"		"#TF_Items_Soldier"
 
 				"SubImage"
@@ -630,9 +630,9 @@
 			"pyro"
 			{
 				"userdata"			"7"
-				"image_default"		"class_icons/filter_pyro"
-				"image_armed"		"class_icons/filter_pyro"
-				"image_selected"	"class_icons/filter_pyro_on"
+				"image_default"		"replay/thumbnails/store/pyro_gray"
+				"image_armed"		"replay/thumbnails/store/pyro_gray"
+				"image_selected"	"replay/thumbnails/store/pyro"
 				"tooltiptext"		"#TF_Items_Pyro"
 				
 				"SubImage"
@@ -643,9 +643,9 @@
 			"demo"
 			{
 				"userdata"			"4"
-				"image_default"		"class_icons/filter_demo"
-				"image_armed"		"class_icons/filter_demo"
-				"image_selected"	"class_icons/filter_demo_on"
+				"image_default"		"replay/thumbnails/store/demoman_gray"
+				"image_armed"		"replay/thumbnails/store/demoman_gray"
+				"image_selected"	"replay/thumbnails/store/demoman"
 				"tooltiptext"		"#TF_Items_Demoman"
 				
 				"SubImage"
@@ -656,9 +656,9 @@
 			"heavy"
 			{
 				"userdata"			"6"
-				"image_default"		"class_icons/filter_heavy"
-				"image_armed"		"class_icons/filter_heavy"
-				"image_selected"	"class_icons/filter_heavy_on"
+				"image_default"		"replay/thumbnails/store/heavy_gray"
+				"image_armed"		"replay/thumbnails/store/heavy_gray"
+				"image_selected"	"replay/thumbnails/store/heavy"
 				"tooltiptext"		"#TF_Items_Heavy"
 				
 				"SubImage"
@@ -669,9 +669,9 @@
 			"engineer"
 			{
 				"userdata"			"9"
-				"image_default"		"class_icons/filter_engineer"
-				"image_armed"		"class_icons/filter_engineer"
-				"image_selected"	"class_icons/filter_engineer_on"
+				"image_default"		"replay/thumbnails/store/engineer_gray"
+				"image_armed"		"replay/thumbnails/store/engineer_gray"
+				"image_selected"	"replay/thumbnails/store/engineer"
 				"tooltiptext"		"#TF_Items_Engineer"
 				
 				"SubImage"
@@ -682,9 +682,9 @@
 			"medic"
 			{
 				"userdata"			"5"
-				"image_default"		"class_icons/filter_medic"
-				"image_armed"		"class_icons/filter_medic"
-				"image_selected"	"class_icons/filter_medic_on"
+				"image_default"		"replay/thumbnails/store/medic_gray"
+				"image_armed"		"replay/thumbnails/store/medic_gray"
+				"image_selected"	"replay/thumbnails/store/medic"
 				"tooltiptext"		"#TF_Items_Medic"
 				
 				"SubImage"
@@ -695,9 +695,9 @@
 			"sniper"
 			{
 				"userdata"			"2"
-				"image_default"		"class_icons/filter_sniper"
-				"image_armed"		"class_icons/filter_sniper"
-				"image_selected"	"class_icons/filter_sniper_on"
+				"image_default"		"replay/thumbnails/store/sniper_gray"
+				"image_armed"		"replay/thumbnails/store/sniper_gray"
+				"image_selected"	"replay/thumbnails/store/sniper"
 				"tooltiptext"		"#TF_Items_Sniper"
 				
 				"SubImage"
@@ -708,9 +708,9 @@
 			"spy"
 			{
 				"userdata"			"8"
-				"image_default"		"class_icons/filter_spy"
-				"image_armed"		"class_icons/filter_spy"
-				"image_selected"	"class_icons/filter_spy_on"
+				"image_default"		"replay/thumbnails/store/spy_gray"
+				"image_armed"		"replay/thumbnails/store/spy_gray"
+				"image_selected"	"replay/thumbnails/store/spy"
 				"tooltiptext"		"#TF_Items_Spy"
 				
 				"SubImage"
