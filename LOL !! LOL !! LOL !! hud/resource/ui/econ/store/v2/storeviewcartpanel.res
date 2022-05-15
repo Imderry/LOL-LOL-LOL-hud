@@ -267,7 +267,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"EmptyCartLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"GaretBook24"
 			"labelText"		"#Store_CartIsEmpty"
 			"textAlignment"	"center"
 			"xpos"			"c-300"
