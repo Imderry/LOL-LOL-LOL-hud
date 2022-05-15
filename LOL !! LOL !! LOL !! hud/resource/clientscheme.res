@@ -1572,7 +1572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Garet Book"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1583,7 +1583,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Garet Book"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1596,8 +1596,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Garet Book"
+				"tall"		"12"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -1609,8 +1609,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"14"
+				"name"		"Garet Book"
+				"tall"		"16"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1621,7 +1621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Garet Book"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1633,7 +1633,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Garet Book"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -3112,6 +3112,26 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		GaretBook42
+		{
+			"1"
+			{
+				"name"		"Garet Book"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		GaretBook52
+		{
+			"1"
+			{
+				"name"		"Garet Book"
+				"tall"		"52"
+				"antialias" "1"
+			}
+		}
 				TFIcons12
 		{
 			"1"
@@ -3850,7 +3870,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/tournament_panel_brown"
+			"image"					"replay/thumbnails/menu/material_transparent_black_30"
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"

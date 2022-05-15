@@ -391,7 +391,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"ItemFontAttribSmall"
+				"font"			"GaretBook12"
 				"xpos"			"21"
 				"wide"			"30"
 				"tall"			"10"

@@ -386,7 +386,7 @@
 		"fieldName"				"Center"
 		"xpos"					"cs-0.5"
 		"ypos"					"rs1.1"
-		"zpos"					"2"
+		"zpos"					"50"
 		"wide"					"41"
 		"tall"					"15"
 		"visible"				"1"
