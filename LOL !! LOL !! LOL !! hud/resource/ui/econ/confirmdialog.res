@@ -17,7 +17,7 @@
 		"paintborder"				"0"
 		"PaintBackgroundType"		"2"
 		"paintbackground"			"1"
-		"bgcolor_override"			"0 0 0 70"
+		"bgcolor_override"			"0 0 0 150"
 	}
 	
 	"TitleLabel"
@@ -94,13 +94,12 @@
 		"border_default"			""
 		"border_armed"				""
 
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"255 255 255 100"
-		"depressedFgColor_override" "TanLight"
-		
-		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"		"255 255 255 70"
-		"depressedBgColor_override" "TanLight"
+		"border_default"			"Econ.Button.Border.Default"
+		"border_armed"				"Econ.Button.Border.Armed"
+		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
+		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}
 
 	"ConfirmButton"
@@ -136,12 +135,11 @@
 		"border_default"			""
 		"border_armed"				""
 
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"255 255 255 100"
-		"depressedFgColor_override" "TanLight"
-		
-		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"		"255 255 255 70"
-		"depressedBgColor_override" "TanLight"
+		"border_default"			"Econ.Button.Border.Default"
+		"border_armed"				"Econ.Button.Border.Armed"
+		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
+		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}
 }

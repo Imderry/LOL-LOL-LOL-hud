@@ -100,7 +100,7 @@ Scheme
 		"TanLight"				"255 255 255 255"
 		"TanDarker"				"255 255 255 255"
 		
-		"StoreDarkTan"			"131 121 104 255"
+		"StoreDarkTan"			"255 255 255 255"
 		"StoreGreen"			"76 107 34 255"
 		
 		// Building HUD Specific
@@ -982,8 +982,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"14"
+				"name"		"Garet Book"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -993,8 +993,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"14"
+				"name"		"Garet Book"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1081,7 +1081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Garet Book"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -2880,10 +2880,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
+				"name"		"Garet Book"
+				"tall"		"16"
 				"antialias" "1"
 			}
 		}
@@ -2891,10 +2889,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Garet Book"
 				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
 				"antialias" "1"
 			}
 		}
@@ -3831,7 +3827,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_round_rect_selected"
+			"image"					"replay/thumbnails/menu/material_transparent_white_70"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -3842,7 +3838,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_round_rect"
+			"image"					"replay/thumbnails/menu/material_transparent_black_70"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -3866,7 +3862,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_brown_opaque"
+			"image"					"replay/thumbnails/menu/material_transparent_black_70"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
