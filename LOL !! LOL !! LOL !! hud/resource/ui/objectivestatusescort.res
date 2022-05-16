@@ -404,7 +404,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"85"
 			}	
 		}
 		
