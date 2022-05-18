@@ -41,7 +41,7 @@
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"255 255 255 50"
 		}
 
 		"BGImage"
@@ -74,16 +74,16 @@
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
-			"font"	"MMenuPlayListDesc"
+			"font"	"GaretBook8"
 			"textinsetx"	"40"
 
 			"stay_armed_on_click"	"1"
 
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
+			"defaultBgColor_override"	"0 0 0 70"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"LightOrange"
+			"armedBgColor_override"	"255 255 255 150"
 			"selectedBGColor_override" "Orange"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
@@ -130,11 +130,11 @@
 		{
 			"ControlName"		"CExCheckButton"
 			"fieldName"		"Checkbutton"
-			"xpos"		"r27"
-			"ypos"		"-1"
+			"xpos"		"cs-0.5"
+			"ypos"		"-50"
 			"zpos"		"3"
-			"wide"		"25"
-			"tall"		"20"
+			"wide"		"500"
+			"tall"		"500"
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"smallcheckimage"	"1"
@@ -152,8 +152,8 @@
 			"zpos"			"3"
 			"wide"			"200"
 			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
@@ -177,8 +177,8 @@
 			"zpos"			"2"
 			"wide"			"200"
 			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
@@ -207,8 +207,8 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"wrap"			"1"
 			"fgcolor_override" "TanLight"
@@ -230,8 +230,8 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"wrap"			"1"
 			"fgcolor_override" "Black"

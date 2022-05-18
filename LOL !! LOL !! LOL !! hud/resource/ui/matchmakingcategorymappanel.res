@@ -9,26 +9,22 @@
 		"tall"					"18"
 		"proportionaltoparent"	"1"
 
-		"skip_autoresize"	"1"
+		"skip_autoresize"	"0"
 	}
 
 	"MapCheckbutton"
 	{
-		"ControlName"		"CExCheckButton"
-		"fieldName"		"MapCheckbutton"
-		"xpos"		"5"
-		"ypos"		"-2"
-		"zpos"		"3"
-		"wide"		"f0"
-		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		""
-		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
-		"smallcheckimage"	"1"
+		"ControlName"				"CExCheckButton"
+		"fieldName"					"MapCheckbutton"
+		"xpos"						"0"
+		"ypos"						"cs-0.5"
+		"zpos"						"3"
+		"wide"						"156"
+		"tall"						"f0"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"			"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
+
 	}
 
 	"MapNameLabel"
