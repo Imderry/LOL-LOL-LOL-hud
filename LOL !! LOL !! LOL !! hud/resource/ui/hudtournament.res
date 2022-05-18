@@ -98,19 +98,19 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
+				"wide"		"52"
 				"tall"		"35"
 			}
 						
 			if_competitive
 			{
-				"wide"		"45"
-				"tall"		"29"
+				"wide"		"52"
+				"tall"		"35"
 			}
 
 			if_readymode
 			{
-				"wide"		"55"
+				"wide"		"52"
 				"tall"		"35"
 			}
 			
@@ -129,7 +129,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"255 255 255 255"
 					
 				if_mvm
 				{
@@ -137,7 +137,7 @@
 					"ypos"				"25"
 					"wide"			"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"GaretBook12"
 				}
 
 				if_competitive
@@ -147,17 +147,17 @@
 					"wide"				"p0.9"
 					"tall"				"p0.22"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"GaretBook12"
 					"proportionaltoparent" "1"
 				}
 
 				if_readymode
 				{
-					"xpos"				"4"
+					"xpos"				"-13"
 					"ypos"				"25"
-					"wide"				"48"
+					"wide"				"80"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"GaretBook12"
 				}
 			}
 			
@@ -235,7 +235,7 @@
 
 				if_readymode
 				{
-					"visible"		"1"
+					"visible"		"0"
 				}
 			}
 			
@@ -246,10 +246,10 @@
 				"xpos"				"22"
 				"ypos"				"-3"
 				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
-				"visible"			"1"
-				"enabled"			"1"	
+				"wide"				"0"
+				"tall"				"0"
+				"visible"			"0"
+				"enabled"			"0"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
@@ -260,7 +260,7 @@
 				{
 					"wide"			"p0.64"
 					"tall"			"p0.96"
-					"visible"		"1"
+					"visible"		"0"
 					"proportionaltoparent" "1"
 				}
 			}
@@ -412,8 +412,8 @@
 				"xpos"			"4"
 				"ypos"			"2"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -423,8 +423,8 @@
 				
 				if_competitive
 				{
-					"wide"			"p0.9"
-					"tall"			"p0.22"
+					"wide"			"0"
+					"tall"			"0"
 					"proportionaltoparent" "1"
 				}
 			}
@@ -444,7 +444,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"image"			"replay/thumbnails/menu/material_transparent_black_70"
 		"proportionaltoparent"	"1"
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -544,7 +544,7 @@
 
 		if_readymode
 		{
-			"xpos"			"200"
+			"xpos"			"9"
 			"visible"		"0"
 		}
 	}
@@ -756,19 +756,19 @@
 
 		if_competitive
 		{
-			"xpos"			"c-45"
-			"ypos"			"18"
+			"xpos"			"cs-0.65"
+			"ypos"			"20"
 			"tall"			"35"
 			"visible"		"1"
-			"font"			"TFFontMedium"
+			"font"			"GaretBook16"
 		}
 
 		if_readymode
 		{
-			"xpos"			"285"
-			"ypos"			"26"
+			"xpos"			"cs-0.65"
+			"ypos"			"20"
 			"visible"		"1"
-			"font"			"TFFontMedium"
+			"font"			"GaretBook16"
 		}
 	}
 
@@ -830,7 +830,7 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"GaretBook24"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
@@ -840,7 +840,7 @@
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"GaretBook24"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
@@ -850,8 +850,8 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"225"
+			"font"			"GaretBook24"
+			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
 			"tall"			"20"
@@ -880,7 +880,7 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"GaretBook24"
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
@@ -891,7 +891,7 @@
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"GaretBook24"
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
@@ -902,8 +902,8 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"226"
+			"font"			"GaretBook24"
+			"xpos"			"c-94"
 			"ypos"			"111"
 			"wide"			"190"
 			"tall"			"20"

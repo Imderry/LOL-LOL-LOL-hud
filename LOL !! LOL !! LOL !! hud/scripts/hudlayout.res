@@ -265,15 +265,12 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"300"
-		"wide"	 	"500"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"40"
-		"priority_lodef" "35"
 		
-		"x_offset" "375"
+		"x_offset" "0"
 		"y_offset" "160"
 	}
 	
@@ -286,7 +283,6 @@
 		"ypos"		"335"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 		"fgcolor_override"  "0 0 0 255"
 
