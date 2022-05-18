@@ -1,3 +1,7 @@
 hud_reloadscheme
 exec autoexec.cfg
 tf_hud_target_id_disable_floating_health 1
+tf_spectator_target_location 0
+tf_mm_dashboard_slide_panel_step -500
+// remove dimmer
+wait 5; showconsole; wait; incrementvar mat_aaquality 0 1 1; hideconsole

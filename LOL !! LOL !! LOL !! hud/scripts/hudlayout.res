@@ -266,13 +266,13 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"150"
-		"ypos"		"0"
+		"ypos"		"300"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
 		
 		"x_offset"	"0"
-		"y_offset"	"50"
+		"y_offset"	"0"
 	}
 	
 	CSecondaryTargetID

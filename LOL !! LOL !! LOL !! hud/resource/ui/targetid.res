@@ -74,7 +74,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"GaretBook16"
 		"xpos"			"8"
-		"ypos"			"10"
+		"ypos"			"8"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
