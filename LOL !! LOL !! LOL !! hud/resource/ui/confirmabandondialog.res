@@ -78,6 +78,12 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"0 0 0 255"
+		"border_armed"				"0 0 0 255"
+		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
+		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}		
 
 	"CancelButtonHintIcon"
@@ -118,6 +124,12 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"0 0 0 255"
+		"border_armed"				"0 0 0 255"
+		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
+		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}
 
 	"ConfirmButtonHintIcon"

@@ -251,7 +251,7 @@
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
-
+		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -265,13 +265,14 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"0"
+		"xpos"		"150"
 		"ypos"		"0"
 		"wide"	 	"252"
 		"tall"	 	"35"
+		"priority"	"40"
 		
-		"x_offset" "0"
-		"y_offset" "160"
+		"x_offset"	"0"
+		"y_offset"	"50"
 	}
 	
 	CSecondaryTargetID
@@ -283,8 +284,8 @@
 		"ypos"		"335"
 		"wide"	 	"252"
 		"tall"	 	"35"
+		"tall_minmode"	 	"28"
 		"priority"	"35"
-		"fgcolor_override"  "0 0 0 255"
 
 		if_vr
 		{
@@ -1139,10 +1140,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"c-63"
 		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"70"
 	}
