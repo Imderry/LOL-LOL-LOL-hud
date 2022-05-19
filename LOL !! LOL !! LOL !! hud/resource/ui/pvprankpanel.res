@@ -337,12 +337,12 @@
 			{
 				"0"		"GaretBook16"
 				"1"		"GaretBook16"
-				"2"		"GaretBook16"
+				"2"		"GaretBook12"
 			}
 
 			"colors"
 			{
-				"1"		"CreditsGreen"
+				"1"		"255 255 255 255"
 				"2"		"255 255 255 255"
 			}
 		}
@@ -374,12 +374,12 @@
 			{
 				"0"		"GaretBook16"
 				"1"		"GaretBook16"
-				"2"		"GaretBook16"
+				"2"		"GaretBook12"
 			}
 
 			"colors"
 			{
-				"1"		"CreditsGreen"
+				"1"		"0 0 0 255"
 				"2"		"255 255 255 255"
 			}
 		}

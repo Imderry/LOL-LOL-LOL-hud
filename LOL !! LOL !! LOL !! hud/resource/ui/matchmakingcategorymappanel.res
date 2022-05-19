@@ -40,7 +40,7 @@
 		"labeltext"		"%title_token%"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallest"
-		"textinsetx"	"20"
+		"textinsetx"	"5"
 		"use_proportional_insets"	"1"
 		
 		"mouseinputenabled"	"0"
@@ -50,7 +50,7 @@
 	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"HealthProgressBar"
-		"xpos"			"20"
+		"xpos"			"5"
 		"ypos"			"cs-0.5"
 		"wide"			"f20"
 		"tall"			"f6"
