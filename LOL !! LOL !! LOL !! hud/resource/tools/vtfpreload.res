@@ -813,42 +813,6 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_flagpanel_ico_flag_moving_alt"
 	}
-		
-		"obj_status_dispenser"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"obj_status_dispenser"
-			"xpos"			"9999"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../vgui/logos/engineer_icons/obj_status_dispenser"
-		}
-		"obj_status_sentrygun_1"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"obj_status_sentrygun_1"
-			"xpos"			"9999"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../vgui/logos/engineer_icons/obj_status_sentrygun_1"
-		}
-		"obj_status_sentrygun_2"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"obj_status_sentrygun_2"
-			"xpos"			"9999"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../vgui/logos/engineer_icons/obj_status_sentrygun_2"
-		}
-		"obj_status_sentrygun_3"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"obj_status_sentrygun_3"
-			"xpos"			"9999"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../vgui/logos/engineer_icons/obj_status_sentrygun_3"
-		}
-	}
+
+
 }
