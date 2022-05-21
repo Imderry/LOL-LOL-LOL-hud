@@ -62,7 +62,6 @@
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"25"
 		"ypos"			"30"
-		"ypos_minmode"	"24"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -81,13 +80,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+		    "xpos"			"25"
+		    "ypos"			"30"
+		    "wide"			"78"
+		    "tall"			"19"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -118,19 +114,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"8"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"30"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -144,14 +131,11 @@
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+		   "proportionaltoparent"	"1"
+		   "xpos"			"8"
+		   "ypos"			"30"
+		   "wide"			"78"
+		   "tall"			"19"
 		}
 	}			
 	"OvertimeBG"
@@ -243,19 +227,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"7"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"28"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
@@ -270,13 +245,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"					"7"
+			"ypos"					"28"
+			"wide"					"78"
+			"tall"			        "19"
 		}
 	}	
 	"SetupBG"
@@ -323,13 +295,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+		    "xpos"			"16"
+		    "ypos"			"33"
+		    "wide"			"0"
+		    "tall"			"0"
 		}
 	}	
 	"ServerTimeLimitLabelBG"

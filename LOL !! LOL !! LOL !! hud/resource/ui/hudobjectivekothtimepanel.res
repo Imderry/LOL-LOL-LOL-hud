@@ -4,7 +4,7 @@
 	{
 		if_match
 		{
-			"zpos"		"5"
+			"zpos"		"20"
 		}
 	}
 
@@ -32,8 +32,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"0"
 			"ypos_minmode"			"0"
 			"delta_item_x"			"10"
@@ -50,42 +49,27 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"GaretBook16"
-			"font_minmode"	"HudFontSmall"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
+        
+		}
 			if_match
-			{
-				"proportionaltoparent"	"1"
+		{
+			"proportionaltoparent"	"1"
 
-				"xpos"			"15"
-				"xpos_minmode"	"15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+			"ypos"			"10"
+			"tall"			"10"
+			"wide"			"45"
+			"fgcolor"       "255 255 255 255"
 			
-			}
 		}	
 	}
 
@@ -93,12 +77,10 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"90"
-		"xpos_minmode"		"70"
+		"xpos"				"0"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
@@ -113,10 +95,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -131,42 +111,27 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"GaretBook16"
-			"font_minmode"	"HudFontSmall"
 			"fgcolor"		"255 255 255 255"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
+			"xpos"			"113"
 			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
+        }
 			if_match
-			{
-				"proportionaltoparent"	"1"
+		{
+			"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+			"ypos"			"10"
+			"xpos"          "0"
+			"tall"			"10"
+			"wide"			"45"
+			"fgcolor"       "255 255 255 255"
 			
-			}
 		}	
 	}
 	"RedTimerBG"
@@ -193,7 +158,7 @@
 		"tall"				"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"         "0 0 200 255"
+		"fillcolor"         "0 144 248 255"
 	}
 	
 		"BlueTimerBG"
@@ -220,7 +185,7 @@
 		"tall"				"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"         "200 0 0 255"
+		"fillcolor"         "219 39 67 255"
 	}
 	
 	"ActiveTimerBG"

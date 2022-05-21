@@ -1,33 +1,35 @@
 "Resource/UI/HudMiniGame_Base.res"
 {
-	"LeftSideBG"
+		"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r77"
+		"xpos"			"c-150"
+		"ypos"          "r20"
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_left"
+		"image"			"replay/thumbnails/blue"
 		"scaleImage"	"1"	
-	}
 
+	}
+	
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r77"
+		"xpos"			"c98"
+		"ypos"          "r20"
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_right"
+		"image"			"replay/thumbnails/red"
 		"scaleImage"	"1"	
+
 	}
 		
 	"OutlineBG"
@@ -39,9 +41,9 @@
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_outline"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
 		"scaleImage"	"1"	
 	}
 	
@@ -49,7 +51,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-110"
+		"xpos"			"c-137"
 		"ypos"			"r49"
 		"zpos"			"8"
 		"wide"			"75"
@@ -58,7 +60,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
+		"font"			"GaretBook42"
 		"fgcolor"		"TanLight"
 	}	
 		
@@ -66,7 +68,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-108"
+		"xpos"			"c-138"
 		"ypos"			"r48"
 		"zpos"			"7"
 		"wide"			"75"
@@ -75,15 +77,15 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"Black"
+		"font"			"GaretBook42"
+		"fgcolor"		"0 0 0 255"
 	}	
 							
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c37"
+		"xpos"			"c70"
 		"ypos"			"r49"
 		"zpos"			"8"
 		"wide"			"75"
@@ -92,7 +94,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
+		"font"			"GaretBook42"
 		"fgcolor"		"TanLight"		
 	}	
 		
@@ -100,7 +102,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c39"
+		"xpos"			"c71"
 		"ypos"			"r48"
 		"zpos"			"7"
 		"wide"			"75"
@@ -109,8 +111,8 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"Black"		
+		"font"			"GaretBook42"
+		"fgcolor"		"0 0 0 255"		
 	}	
 															
 	"PlayingTo"
@@ -128,7 +130,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"GaretBook16"
 		"fgcolor"		"TanLight"
 	}	
 			
@@ -137,13 +139,13 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"cs-0.5"
-		"ypos"			"r33"
+		"ypos"			"r24"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"38"
+		"wide"			"120"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
+		"image"			"replay/thumbnails/menu/material_transparent_black_70"
 		"scaleImage"	"1"	
 	}
 
@@ -156,8 +158,8 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			""
 		"scaleImage"	"1"	
 	}
