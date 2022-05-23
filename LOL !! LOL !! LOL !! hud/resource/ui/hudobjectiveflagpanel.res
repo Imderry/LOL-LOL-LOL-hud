@@ -283,7 +283,7 @@
 		"fieldName"		"CarriedImage"
 		"xpos"			"cs-0.5"
 		"ypos"			"r200"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"ypos_minmode"	"r230"
 		"zpos"			"10"
 		"wide"			"70"
 		"tall"			"70"
