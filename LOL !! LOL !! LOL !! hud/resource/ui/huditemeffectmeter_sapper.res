@@ -5,12 +5,12 @@
 	"HudItemEffectMeter"
 	{
 		"ypos"				"c120"
-		"ypos_minmode"		"c70"
+		"ypos_minmode"		"c107"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"labelText"			"#TF_Cleaver"
+		"labelText"			"#TF_ENERGYDRINK"
 		"xpos"              "90"
 	}	
 }

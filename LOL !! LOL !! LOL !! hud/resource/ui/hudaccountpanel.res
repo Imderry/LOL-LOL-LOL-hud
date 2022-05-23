@@ -3,12 +3,14 @@
 	"CHudAccountPanel"
 	{
 		"delta_item_x"			"62"
+		"delta_item_x_minmode"	"65"
 		"delta_item_start_y"	"90"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"255 255 255 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"0.5"
 		"delta_item_font"		"GaretBook24"
+		"delta_item_font_minmode"		"GaretHeavy16"
 	}
 	
 	
@@ -49,6 +51,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"GaretBook24"
+		"font_minmode"	"GaretHeavy24"
         "fgcolor"       "255 255 255 255"		
 	}
 	"AccountValueBG"
@@ -68,6 +71,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"GaretBook24"
+		"font_minmode"	"GaretHeavy24"
         "fgcolor"       "0 0 0 255"		
 	}
 		"Metal"

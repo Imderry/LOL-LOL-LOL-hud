@@ -961,12 +961,12 @@
 		"xpos"			"230"
 		"ypos"			"r55"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../HUD/color_panel_red"
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -1013,7 +1013,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
 			"fgcolor"		"TanLight"
-			"font"			"HudFontGiant"
+			"font"			"GaretBook16"
 		}
 
 		if_readymode
@@ -1040,14 +1040,14 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"0 0 0 255"
 		"proportionaltoparent"	"1"
 
 		if_competitive
 		{
 			"xpos"			"cs-0.48"
 			"ypos"			"cs-0.08"
-			"font"			"HudFontGiant"
+			"font"			"GaretBook16"
 		}
 
 		if_readymode

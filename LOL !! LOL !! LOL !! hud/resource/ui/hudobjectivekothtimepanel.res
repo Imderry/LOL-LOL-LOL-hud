@@ -13,9 +13,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"0"
-		"xpos_minmode"		"20"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -27,21 +25,20 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"GaretBook16"
 
 		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
+			"ypos"					"13"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"GaretBook16"
 		}
 		
 		"TimePanelValue"
@@ -90,20 +87,20 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"GaretBook16"
 
 		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"0"
+			"ypos"					"13"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"GaretBook16"
 		}
 		
 		"TimePanelValue"
@@ -146,6 +143,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"         "0 0 0 100"
+		
+		if_match
+		{
+			"ypos"					"30"
+		}
 	}
 	"RedTimerBG2"
 	{
@@ -159,6 +161,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"         "0 144 248 255"
+		
+		if_match
+		{
+			"ypos"                  "44"
+		}
 	}
 	
 		"BlueTimerBG"
@@ -173,6 +180,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"         "0 0 0 100"
+		
+		if_match
+		{
+			"ypos"					"30"
+		}
 	}
 		"BlueTimerBG2"
 	{
@@ -186,6 +198,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"         "219 39 67 255"
+		
+		if_match
+		{
+			"ypos"					"44"
+		}
 	}
 	
 	"ActiveTimerBG"
@@ -194,12 +211,9 @@
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
 		"ypos"				"9"
-		"ypos_minmode"		"-4"
 		"zpos"				"1"
 		"wide"				"0"
-		"wide_minmode"		"37"
 		"tall"				"0"
-		"tall_minmode"		"21"
 		"visible"			"0"
 		"enabled"			"0"
 		"image"				"../hud/objectives_timepanel_active_bg"	

@@ -36,7 +36,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
-		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 	}
 	

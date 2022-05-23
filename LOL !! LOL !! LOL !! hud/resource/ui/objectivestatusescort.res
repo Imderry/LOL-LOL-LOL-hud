@@ -493,7 +493,6 @@
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
 				"font"				"DefaultSmall"
-				"font_minmode"			"DefaultVerySmall"
 				"xpos"				"0"
 				"ypos"				"3"
 				"zpos"				"23"

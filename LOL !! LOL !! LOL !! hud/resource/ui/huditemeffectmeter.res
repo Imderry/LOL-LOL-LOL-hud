@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-120"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minmode"	"c-25"	[$WIN32]
 		"ypos"			"c100"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"ypos_minmode"	"c100"	[$WIN32]
 		"wide"			"200"
 		"tall"			"100"
 		"MeterFG"		"White"
@@ -26,13 +26,15 @@
 		"zpos"					"2"
 		"wide"					"61"
 		"tall"					"15"
+		"wide_minmode"			"50"
+		"tall_minmode"			"5"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
+		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"textAlignment_minmode"			"center"
 		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
@@ -40,6 +42,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"GaretBook16"
+		"font_minmode"			"GaretHeavy8"
 		"fgcolor_override"		"0 0 0 255"
 
 	}
@@ -56,12 +59,13 @@
 		"zpos"					"2"
 		"wide"					"150"
 		"wide_minmode"			"50"
-		"tall"					"12"				
+		"tall"					"12"
+        "tall_minmode"			"5"		
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"	     "0 0 0 255"

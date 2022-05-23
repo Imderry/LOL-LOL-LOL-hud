@@ -296,7 +296,6 @@
 		{
 			"xpos"					"c-390"
 			"wide"					"110"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"

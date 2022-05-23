@@ -17,9 +17,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c125"
-		"xpos_minmode"	"r85"	[$WIN32]
+		"xpos_minmode"	"c-40"	[$WIN32]
 		"ypos"	"c80"
-		"ypos_minmode"	"r36"	[$WIN32]
+		"ypos_minmode"	"c93"	[$WIN32]
 		"wide"	"300"
 		"tall"	"200"
 	}
@@ -58,9 +58,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"
-		"xpos_minmode"	"r52"
+		"xpos_minmode"	"r162"
 		"ypos"			"r52"
-		"ypos_minmode"	"r50"
+		"ypos_minmode"	"r52"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"0 0 0 255"
@@ -75,9 +75,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"318"
-		"xpos_minmode"	"r52"
+		"xpos_minmode"	"c-25"
 		"ypos"			"c102"
-		"ypos_minmode"	"r50"
+		"ypos_minmode"	"r160"
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -88,9 +88,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"348"
-		"xpos_minmode"	"r52"
+		"xpos_minmode"	"c-35"
 		"ypos"			"c102"
-		"ypos_minmode"	"r50"
+		"ypos_minmode"	"c83"
 		"wide"			"200"
 		"tall"			"100"
 		"MeterFG"		"White"
@@ -192,6 +192,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"r145"
+		"xpos_minmode"	        "r95"
 		"ypos"					"r149"
 		"ypos_minmode"			"r134"
 		"wide"					"116"
@@ -205,9 +206,9 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"223"
-		"xpos_minmode"			"61"
+		"xpos_minmode"			"cs-0.55"
 		"ypos"					"r230"
-		"ypos_minmode"			"r134"
+		"ypos_minmode"			"c30"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -249,7 +250,7 @@
 		"ypos"		"285"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"35"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -284,7 +285,7 @@
 		"ypos"		"335"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"35"
 		"priority"	"35"
 
 		if_vr
@@ -912,12 +913,10 @@
 	FreezePanelCallout
 	{
 		"fieldName"				"FreezePanelCallout"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
+		"visible"				"0"
+		"enabled"				"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	AnnotationsPanelCallout
@@ -1029,9 +1028,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"353"
-		"xpos_minmode"	"r52"
 		"ypos"			"c102"
-		"ypos_minmode"	"r50"
+		"xpos_minmode"	"c-35"
+		"ypos_minmode"	"c80"
 		"wide"			"200"
 		"tall"			"100"
 	}	

@@ -11,6 +11,8 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"GaretBook16"
 		"delta_item_font_big"	"GaretBook16"
+		"delta_item_font_minmode"		"GaretHeavy16"
+		"delta_item_font_big_minmode"	"GaretHeavy16"
 	}
 	
 	    "DamageAccountValue"
@@ -18,7 +20,9 @@
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "DamageAccountValue"
         "xpos"                                                      "c-185"
+		"xpos_minmode"                                              "cs-0.5"
         "ypos"                                                      "310"
+		"ypos_minmode"                                              "300"
         "zpos"                                                      "2"
         "wide"                                                      "100"
         "tall"                                                      "28"
@@ -28,6 +32,7 @@
         "textAlignment"                                             "center"
         "fgcolor"                                                   "255 255 255 255"
         "font"                                                      "GaretBook24"
+		"font_minmode"                                              "GaretHeavy24"
     }
 	
 		"DamageAccountValueBG"
@@ -36,6 +41,8 @@
         "fieldName"                                                 "DamageAccountValueBG"
         "xpos"                                                      "c-186"
         "ypos"                                                      "310"
+		"xpos_minmode"                                              "c-49"
+		"ypos_minmode"                                              "301"
         "zpos"                                                      "2"
         "wide"                                                      "100"
         "tall"                                                      "28"
@@ -45,5 +52,6 @@
         "textAlignment"                                             "center"
         "fgcolor"                                                   "0 0 0 255"
         "font"                                                      "GaretBook24"
+		"font_minmode"                                              "GaretHeavy24"
     }
 }

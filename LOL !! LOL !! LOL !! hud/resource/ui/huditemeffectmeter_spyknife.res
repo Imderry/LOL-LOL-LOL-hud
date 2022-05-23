@@ -6,7 +6,7 @@
 	{
 	    "xpos"              "c-120"
 		"ypos"				"c120"
-		"ypos_minmode"		"c53"
+		"ypos_minmode"		"c107"
 	}
 	
 	"ItemEffectMeterLabel"

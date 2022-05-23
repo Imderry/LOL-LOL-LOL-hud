@@ -20,8 +20,7 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"0"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]	
+		"tall"			"0"	
 		"wide"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -35,9 +34,7 @@
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
 		"ypos"			"r70"	
-		"ypos_minmode"	"r20"
 		"tall"			"0"
-		"tall_minmode"	"0"
         "wide"			"0"		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -51,14 +48,11 @@
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
 		"ypos"			"9999"
-		"ypos_minmode"	"r0"
-		"tall"			"70"		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"			
+		"tall"			"70"		// this needs to match the size of BottomBar		
 		"wide"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -67,13 +61,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"
-		"xpos_minmode"	"0"
 		"ypos"			"50"
-		"ypos_minmode"	"3"	
-		"ypos_hidef"	"79"
-		"ypos_lodef"	"85"
 		"wide"			"600"
-		"wide_minmode"	"300"
 		"tall"			"18"
 		"tall_hidef"		"23"
 		"autoResize"		"0"
@@ -82,9 +71,6 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"textAlignment_minmode"		"west"
-		"use_proportional_insets_minmode"	"1"
-		"textinsetx_minmode"				"5"
 		"font"			"GaretBook16"
 	}
 	"BuyBackLabel"
@@ -102,6 +88,7 @@
 		"labelText"		""
 		"textAlignment"		"center"
 		"font"			"GaretBook16"
+		"font_minmode"			"GaretBook16"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -117,7 +104,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
@@ -135,11 +121,9 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
-		"textAlignment_lodef"		"north-west"
 		"font"			"GaretBook16"
 	}
 	"SwitchCamModeKeyLabel"
@@ -150,7 +134,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
@@ -165,7 +148,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
@@ -178,9 +160,7 @@
 		"xpos"			"9999"		
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
@@ -193,9 +173,7 @@
 		"xpos"			"9999"		
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
@@ -209,7 +187,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
@@ -224,7 +201,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
@@ -250,7 +226,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"enabled"		"0"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]

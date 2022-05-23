@@ -281,7 +281,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"GaretBook16"
 		
 		if_mvm
 		{
@@ -305,7 +305,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"GaretBook16"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	

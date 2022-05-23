@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"r50"	[$WIN32]
 		"ypos"			"r40"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
+		"xpos_minmode"	"r40"	[$WIN32]
+		"ypos_minmode"	"r27"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -43,6 +43,7 @@
 		"ypos"					"22"
 		"zpos"					"2"
 		"wide"					"55"
+		"wide_minmode"			"0"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -119,6 +120,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
 		"font"					"GaretBook24"
+		"font_minmode"			"GaretHeavy24"
 		"fgcolor_override"      "255 255 255 255"
 	}
 	"ItemEffectMeterCountBG"
@@ -139,6 +141,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"GaretBook24"
+		"font_minmode"			"GaretHeavy24"
 		"fgcolor_override"      "0 0 0 255"
 	}
 }
