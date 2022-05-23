@@ -210,6 +210,15 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	Animate PlayerStatusHealthValue         fgcolor     "150 255 133 255" Linear 0.0 0.0
 	
+	Animate 	overheal3									Alpha		"255"					Linear 0.175	0.0
+	Animate 	overheal3									Alpha		"0"						Linear 0.175	    0.175
+	
+	Animate 	overheal2									Alpha		"255"					Linear 0.150    0.0
+	Animate 	overheal2									Alpha		"0"						Linear 0.150	    0.215
+
+	Animate 	overheal									Alpha		"255"					Linear 0.125		0.0
+	Animate 	overheal									Alpha		"0"						Linear 0.125	    0.2
+	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -235,6 +244,9 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	Animate PlayerStatusHealthValue         fgcolor     "255 200 0 255" Linear 0.0 0.0
+	
+	Animate 	lowhp									Alpha		"255"					Linear 0.1		0.0
+	Animate 	lowhp									Alpha		"0"						Linear 0.175	    0.1
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
