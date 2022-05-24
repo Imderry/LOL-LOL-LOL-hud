@@ -68,7 +68,7 @@
 
 		"paintbackground"	"1"	"defaultBgColor_override"	"15 15 15 255"	"armedBgColor_override"	"15 15 15 255"
 
-		"armedFgColor_override"	"255 255 255 100"	"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 100"	"defaultFgColor_override"	"255 255 255 255" "border_default"	"noborder"
 	}
 	
 	"BackShortKey"
@@ -98,7 +98,7 @@
 	{
 		"ControlName"	"CExButton"	"fieldName"	"BackButton2"
 		
-		"xpos"	"cs-0.5"	"ypos"	"rs27"	"zpos"	"2"	"wide"	"f0"	"tall"	"18"
+		"xpos"	"cs-0.5"	"ypos"	"0"	"zpos"	"2"	"wide"	"f0"	"tall"	"18"
 		
 		"font"	"HudFontSmallBold"			"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"	"Command"	""
 		
@@ -108,6 +108,6 @@
 
 		"paintbackground"	"1"	"defaultBgColor_override"	"15 15 15 255"	"armedBgColor_override"	"18 19 20 255"
 
-		"armedFgColor_override"	"White"	"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"White"	"defaultFgColor_override"	"White" "border_default"	"noborder"
 	}
 }

@@ -28,6 +28,7 @@
 		    "tall"				"29"
 		    "visible"			"1"
 		    "enabled"			"1"
+			"textAlignment"	"center"
 		    "fillcolor"         "0 0 0 100"
 	    
 		}
@@ -324,12 +325,12 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 
-				"border"		"OuterShadowBorderThin"
+				"border"		""
 			}
 
 			"BGPanel"
@@ -443,8 +444,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labeltext"		""
-				"font"			"HudFontSmallBold"
+				"labeltext"		"|"
+				"font"			"Symbols 18"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -457,12 +458,10 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override" "255 255 255 150"
+				"depressedFgColor_override" "255 255 255 255"
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -470,10 +469,10 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
-					"visible"		"1"
-					"enabled"		"1"
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 					"image"			"glyph_options"
 					"scaleImage"	"1"
 				}				
@@ -493,8 +492,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labeltext"		""
-				"font"			"HudFontSmallBold"
+				"labeltext"		"-"
+				"font"			"Symbols 18"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -507,26 +506,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"close_button"
-					"scaleImage"	"1"
-				}				
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override" "255 255 255 150"
+				"depressedFgColor_override" "255 255 255 255"		
 			}		
 		}
 
@@ -549,12 +531,12 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 
-				"border"		"OuterShadowBorderThin"
+				"border"		""
 			}
 
 			"BGPanel"
@@ -622,9 +604,10 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
+				"paintbackground"  "1"
 
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
+				"armedBgColor_override"		"255 255 255 150"
+				"defaultBgColor_override"	"0 0 0 150"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -646,7 +629,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
             "font"			"Symbols 12"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"textinsetx"	"25"
 			"textinsety"	"5"
 			"dulltext"		"0"
@@ -705,7 +688,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"font"			"Symbols 12"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"quit"
@@ -824,7 +807,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"font"			"Symbols 12"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"find_game"
