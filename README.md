@@ -1,2 +1,2 @@
 # LOL !! LOL !! LOL !! hud
-The most funniest hud in tf2
+the world's funniest hud in tf2
