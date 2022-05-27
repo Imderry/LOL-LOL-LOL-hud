@@ -22,7 +22,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"8"
-		"xpos_minmode"			"15"
+		"xpos_minmode"			"17"
 		"ypos"			"-6"
 		"ypos_minmode"			"11"
 		"zpos"			"2"

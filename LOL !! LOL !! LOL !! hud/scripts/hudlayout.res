@@ -1,4 +1,9 @@
+#base "../#customization/Damage_Indicator.res"
+
+
 "Resource/HudLayout.res"
+
+
 {
 	HudPlayerStatus
 	{
@@ -408,21 +413,6 @@
 		"TextColor"	"255 170 0 220"
 
 		"PaintBackgroundType"	"2"
-	}
-
-	HudDamageIndicator
-	{
-        "fieldName"     "HudDamageIndicator"
-        "visible"       "0"
-        "enabled"       "0"
-        "MinimumWidth"  "0"
-        "MaximumWidth"  "0"
-        "StartRadius"   "0"
-        "EndRadius"     "0"
-        "MinimumHeight" "0"
-        "MaximumHeight" "0"
-        "MinimumTime"   "0"
-
 	}
 
 	HudCommentary
