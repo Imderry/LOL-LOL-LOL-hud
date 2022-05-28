@@ -492,6 +492,19 @@
 		"image"			"../sprites/obj_icons/icon_obj_timer"
 	}
 	
+	
+	"CaptureHighlight"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CaptureHighlight"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"wide"          "10"
+		"tall"          "10"
+		"image"			"../hud/CaptureHighlight"
+	}
+	
 	///CART POINT ICONS///
 	"CartAlert"
 	{
