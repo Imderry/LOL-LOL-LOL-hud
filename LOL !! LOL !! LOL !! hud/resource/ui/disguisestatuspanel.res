@@ -141,7 +141,7 @@
 		"textAlignment"		"North-West"
 		"fgcolor_override"	"0 0 0 255"
 	}
-"WeaponNameLabel"
+    "WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
