@@ -79,18 +79,18 @@
 			}		
 		}
 		
-				"BlueTimerBG"
+				"ButtonsBG"
 	    {
-		     "ControlName"		"ImagePanel"
-		     "fieldName"			"BlueTimerBG"
+		    "ControlName"		"ImagePanel"
+		    "fieldName"			"buttonsBG"
 		    "xpos"			"c188"
 		    "ypos"			"28"
 		    "zpos"			"1"
-		     "wide"			"122"
-		     "tall"			"32"
-		     "visible"			"1"
-		     "enabled"			"1"
-		     "fillcolor"         "0 0 0 100"
+		    "wide"			"122"
+		    "tall"			"32"
+		    "visible"			"1"
+		    "enabled"			"1"
+		    "fillcolor"         "0 0 0 100"
 	    }
 		
 			"VoteBG2"
@@ -334,6 +334,7 @@
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
 		"show_progress"	"0"
+		
 	}
 
 	"CycleRankTypeButton"
@@ -351,7 +352,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"textinsetx"	"3"
-		"labelText"		""
+		"labelText"		"."
 		"use_proportional_insets" "1"
 		"font"			"Symbols 12"
 		"command"		"open_rank_type_menu"
@@ -374,34 +375,13 @@
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"		
 	}
-	
-		"KEKEBG"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"KEKEBG"
-		"xpos"			"650"
-		"ypos"			"280"
-		"zpos"          "5"
-		"wide"			"15"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"3"
-		"labelText"				"."
-		"font"					"Symbols 12"
-		"fgcolor_override"		"255 255 255 255"
-
-	}
 
 		"KEKEBGG"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"KEKEBGG"
-		"xpos"			"649"
-		"ypos"			"280"
+		"xpos"			"0"
+		"ypos"			"1"
 		"zpos"          "0"
 		"wide"			"15"
 		"tall"			"15"
@@ -414,6 +394,8 @@
 		"labelText"				"."
 		"font"					"Symbols 12"
 		"fgcolor_override"		"0 0 0 255"
+		
+		"pin_to_sibling" "CycleRankTypeButton"
 
 	}	
 	
@@ -439,10 +421,10 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-350"
+		"xpos"			"r191"
 		"ypos"			"72"
 		"zpos"			"1"
-		"wide"			"780"
+		"wide"			"200"
 		"tall"			"290"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
@@ -1639,14 +1621,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"599"
-		"ypos"			"340"
+		"xpos"			"73"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"150"
 		"visible"		"1"
 
 		"border"		""
+		
+		"pin_to_sibling"	"BottomLeftButtonsAnchor"
 
 		"TitleLabel"
 		{
@@ -1655,7 +1639,7 @@
 			"font"			"GaretBook24"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
-			"xpos"			"12"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"30"
@@ -1673,7 +1657,7 @@
 			"font"			"GaretBook24"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
-			"xpos"			"13"
+			"xpos"			"1"
 			"ypos"			"1"
 			"wide"			"f0"
 			"tall"			"30"
@@ -2591,8 +2575,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"684"
-		"ypos"			"342"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"          "10"
 		"wide"			"42"
 		"tall"			"28"
@@ -2616,20 +2600,21 @@
 			
 		"paintbackground"	"1"
 				
-		"armedBgColor_override"		"255 255 255 70"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"		"100 100 100 70"
+		"defaultBgColor_override"	"0 0 0 100"
 		"armedFgColor_override"		"255 255 255 255"
 		"defaultFgColor_override"	"255 255 255 255"
 
-        "border_default"	"noborder"		
+        "border_default"	"noborder"	
+        "pin_to_sibling"	"BottomLeftButtonsAnchor"		
 	}
 	
 		"CharBGG"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CharBGG"
-		"xpos"			"686"
-		"ypos"			"342"
+		"xpos"			"-2"
+		"ypos"			"-1"
 		"zpos"          "2"
 		"wide"			"42"
 		"tall"			"28"
@@ -2643,30 +2628,22 @@
 		"font"					"Symbols 20"
 		"textAlignment"	"center"
 		"fgcolor_override"		"0 0 0 255"
+		
+		"pin_to_sibling"	"CharacterSetupButton"	
+		
+		
 
 	}
 	
-	"CharSymBG"
+		"BottomLeftButtonsAnchor"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CharSymBG"
-		"xpos"			"685"
-		"ypos"			"343"
-		"zpos"          "0"
-		"zpos"          "10"
-		"wide"			"40"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"         "0 0 0 100"
-		
-		"armedBgColor_override"		"255 255 255 70"
-		"defaultBgColor_override"	"0 0 0 100"
-		"paintbackground"	"1"
+		"ControlName"	"EditablePanel"
+		"fieldname"	     "BottomLeftButtonsAnchor"		
+		"xpos"	"r185"	
+		"ypos"	"r140"
+		"wide"	"30"	
+		"tall"	"1"		
+		"visible"	"0"
 	}
 	
 	"StoreHasNewItemsImage"
@@ -2689,8 +2666,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"726"
-		"ypos"			"342"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"          "10"
 		"wide"			"42"
 		"tall"			"28"
@@ -2712,13 +2689,18 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground" "1"
 			
-		"armedBgColor_override"		"255 255 255 70"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"		"100 100 100 70"
+		"defaultBgColor_override"	"0 0 0 100"
 		"armedFgColor_override"		"255 255 255 255"
 		"defaultFgColor_override"	"255 255 255 255"
 						
-	    "border_default"	"noborder"	
+	    "border_default"	"noborder"
+		
+		"pin_to_sibling" "CharacterSetupButton"
+	    "pin_corner_to_sibling" "PIN_TOPLEFT"
+	    "pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	
 	
@@ -2726,8 +2708,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"StoreBGG"
-		"xpos"			"727"
-		"ypos"			"342"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"          "1"
 		"wide"			"42"
 		"tall"			"28"
@@ -2741,30 +2723,18 @@
 		"font"					"Symbols 20"
 		"textAlignment"	"center"
 		"fgcolor_override"		"0 0 0 255"
+		
+		"pin_to_sibling" "GeneralStoreButton"
 
 	}
 	
-	"StrBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"StrBG"
-		"xpos"			"727"
-		"ypos"			"343"
-		"zpos"          "1"
-		"wide"			"40"
-		"tall"			"26"
-		"visible"			"1"
-		"enabled"			"1"
-		"textAlignment"	"west"
-		"fillcolor"         "0 0 0 100"
-	}
 
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"768"
-		"ypos"			"342"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"42"
 		"tall"			"28"
@@ -2790,21 +2760,24 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
-		"armedBgColor_override"		"255 255 255 70"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"		"100 100 100 70"
+		"defaultBgColor_override"	"0 0 0 100"
 		"armedFgColor_override"		"255 255 255 255"
 		"defaultFgColor_override"	"255 255 255 255"
 						
-	    "border_default"	"noborder"	
+	    "border_default"	"noborder"
+		
+		"pin_to_sibling" "GeneralStoreButton"
+	    "pin_corner_to_sibling" "PIN_TOPLEFT"
+	    "pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	
 	"SttBGG"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"SttBGG"
-		"xpos"			"769"
-		"ypos"			"342"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"42"
 		"tall"			"28"
@@ -2818,29 +2791,17 @@
 		"font"					"Symbols 20"
 		"textAlignment"	"center"
 		"fgcolor_override"		"0 0 0 255"
+		
+		"pin_to_sibling" "SettingsButton"
 
-	}
-	
-	"SettcustomBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"SettcustomBG"
-		"xpos"			"769"
-		"ypos"			"343"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"26"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"         "0 0 0 100"
 	}
 
 	"TF2SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"810"
-		"ypos"			"342"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"42"
 		"tall"			"28"
@@ -2858,6 +2819,7 @@
 		"default"		"1"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
+		"roundedcorners" "0"
 
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
@@ -2866,20 +2828,24 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	""
 		"paintbackground"	"1"
-		"armedBgColor_override"		"255 255 255 70"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"		"100 100 100 70"
+		"defaultBgColor_override"	"0 0 0 100"
 		"armedFgColor_override"		"255 255 255 255"
 		"defaultFgColor_override"	"255 255 255 255"
 						
-	    "border_default"	"noborder"				
+	    "border_default"	"noborder"		
+
+		"pin_to_sibling" "SettingsButton"
+	    "pin_corner_to_sibling" "PIN_TOPLEFT"
+	    "pin_to_sibling_corner" "PIN_TOPRIGHT"		
 	}
 	
 	"Sett2BGG"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"Sett2BGG"
-		"xpos"			"811"
-		"ypos"			"342"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"0"
 		"wide"			"42"
 		"tall"			"28"
@@ -2893,22 +2859,12 @@
 		"font"					"Symbols 20"
 		"textAlignment"	"center"
 		"fgcolor_override"		"0 0 0 255"
+		
+		"pin_to_sibling" "TF2SettingsButton"
 
 	}
 	
-	"Sett2CustomBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"Sett2CustomBG"
-		"xpos"			"811"
-		"ypos"			"343"
-		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"26"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"         "0 0 0 100"
-	}
+
 	
 	"NewUserForumsButton"
 	{

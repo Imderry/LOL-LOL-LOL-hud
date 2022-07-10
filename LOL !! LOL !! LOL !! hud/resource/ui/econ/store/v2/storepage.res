@@ -159,7 +159,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c+335"
+		"xpos"		"r145"
 		"ypos"		"11"
 		"zpos"		"2"
 		"wide"		"90"
@@ -214,7 +214,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SubcategoryFilterComboBox"
-		"xpos"				"c283"
+		"xpos"				"r145"
 		"ypos"				"50"
 		"zpos"				"1"
 		"wide"				"112"
@@ -255,7 +255,7 @@
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortFilterComboBox"
 		"Font"				"HudFontSmallestBold"
-		"xpos"				"c283"
+		"xpos"				"r145"
 		"ypos"				"30"
 		"zpos"				"1"
 		"wide"				"142"
@@ -449,7 +449,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"center"
-		"xpos"			"c+335"
+		"xpos"			"r145"
 		"ypos"			"-5"
 		"zpos"			"1"
 		"wide"			"90"
@@ -746,8 +746,8 @@
 		"font"			"GaretBook16"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
-		"xpos"			"c370"
-		"ypos"			"357"
+		"xpos"			"r60"
+		"ypos"			"r120"
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
@@ -766,8 +766,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartImage"
-		"xpos"			"c375"
-		"ypos"			"358"
+		"xpos"			"-2"
+		"ypos"			"-1"
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
@@ -777,6 +777,8 @@
 		"font"			"Symbols 24"
 		"textAlignment"	"center"
 		"defaultBgColor_override" "0 0 0 0"
+		
+		"pin_to_sibling" "CartButton"
 	}
 	
 	"CartFeaturedItemSymbol"

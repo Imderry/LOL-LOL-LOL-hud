@@ -7,8 +7,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"3"		
-		"wide"			"700"
-		"tall"			"700"
+		"wide"			"f0"
+		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
 
@@ -44,16 +44,17 @@
 
 			"paintbackground"	"0"	
 		}
+		
 
 		"RankModel"
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"cs+3.1"
+			"xpos"			"r160"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"		
-			"wide"			"o1"
-			"tall"			"p0.12"
+			"wide"			"75"
+			"tall"			"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

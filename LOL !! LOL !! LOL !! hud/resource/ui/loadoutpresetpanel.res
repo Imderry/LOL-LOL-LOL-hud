@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"cexbutton"
 		"fieldName"		"quickpin"
-		"xpos" "1107"
+		"xpos" "r-163"
 		"ypos" "300"
 		"wide"			"25"
 		"tall"			"25"

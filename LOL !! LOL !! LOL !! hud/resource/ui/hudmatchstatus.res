@@ -210,7 +210,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
-		"xpos"				"335"
+		"xpos"				"cs-0.32"
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"283"
@@ -277,8 +277,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-390"
-		"ypos"				"433"
+		"xpos"				"35"
+		"ypos"				"r48"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"

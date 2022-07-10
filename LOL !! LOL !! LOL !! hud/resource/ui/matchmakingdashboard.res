@@ -16,22 +16,6 @@
 		"expanded_height"	"35"
 		"resize_time"		"0.2"
 	}
-	
-			"ChaBG"
-	    {
-		    "ControlName"		"ImagePanel"
-		    "fieldName"			"NotiBG"
-		    "xpos"				"609"
-		    "ypos"				"0"
-		    "zpos"				"0"
-            "wide"				"184"
-		    "tall"				"29"
-		    "visible"			"1"
-		    "enabled"			"1"
-			"textAlignment"	"center"
-		    "fillcolor"         "0 0 0 100"
-	    
-		}
 
 	"TopBar"
 	{
@@ -102,7 +86,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"609"
+			"xpos"			"185"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"38"
@@ -132,29 +116,15 @@
 
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-2"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"0"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_chat"
-			}
+			
+			"pin_to_sibling" "FindAGameButton"
 		}
 		
 		     "ToggleChatButtonBG"
 	    {
 			"ControlName"	"CExLabel"
 			"fieldName"		"ToggleChatButtonBG"
-			"xpos"			"608"
+			"xpos"			"1"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"38"
@@ -176,6 +146,8 @@
 			"roundedcorners"	"0"
 			"paintbackground" "0"
 			"fgcolor"  "0 0 0 255"
+			
+			"pin_to_sibling" "ToggleChatButton"
 		}
 			
         
@@ -184,11 +156,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"646"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"cs-0.5-9.9"
 			"zpos"			"100"
-			"wide"			"24"
-			"tall"			"24"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -199,14 +171,18 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"0"
+			
+			"pin_to_sibling" "ToggleChatButton"
+	        "pin_corner_to_sibling" "PIN_TOPLEFT"
+	        "pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 
 		"PartySlot1"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"669"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"-1"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -220,14 +196,18 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"1"
+			
+			"pin_to_sibling" "PartySlot0"
+	        "pin_corner_to_sibling" "PIN_TOPLEFT"
+	        "pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 
 		"PartySlot2"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"695"
-			"ypos"			"rs1-6"
+			"xpos"			"2"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -241,14 +221,18 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"2"
+			
+			"pin_to_sibling" "PartySlot1"
+	        "pin_corner_to_sibling" "PIN_TOPLEFT"
+	        "pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 
 		"PartySlot3"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"720"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -262,14 +246,18 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"3"
+			
+			"pin_to_sibling" "PartySlot2"
+	        "pin_corner_to_sibling" "PIN_TOPLEFT"
+	        "pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 
 		"PartySlot4"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"745"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -283,14 +271,18 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"4"
+			
+			"pin_to_sibling" "PartySlot3"
+	        "pin_corner_to_sibling" "PIN_TOPLEFT"
+	        "pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 
 		"PartySlot5"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"769"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"24"
 			"tall"			"24"
@@ -304,6 +296,10 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"5"
+			
+			"pin_to_sibling" "PartySlot4"
+	        "pin_corner_to_sibling" "PIN_TOPLEFT"
+	        "pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 
 		"QueueContainer"
@@ -671,6 +667,27 @@
 				"image"			"glyph_quit"
 				"drawcolor_override" "TanLight"
 			}
+		}
+		
+		"ChatBG"
+	    {
+		    "ControlName"		"ImagePanel"
+		    "fieldName"			"ChatBG"
+		    "xpos"				"-38"
+		    "ypos"				"0"
+		    "zpos"				"0"
+            "wide"				"184"
+		    "tall"				"29"
+		    "visible"			"1"
+		    "enabled"			"1"
+			"textAlignment"	"center"
+		    "fillcolor"         "0 0 0 100"
+			
+			"pin_to_sibling" "ToggleChatButton"
+			
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+	        "pin_to_sibling_corner" "PIN_TOPRIGHT"
+	    
 		}
 
 		"DisconnectButton"

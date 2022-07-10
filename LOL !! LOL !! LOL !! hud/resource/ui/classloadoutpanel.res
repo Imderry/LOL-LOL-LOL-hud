@@ -18,8 +18,8 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"135"
-		"item_xpos_offcenter_b"	"285"
+		"item_xpos_offcenter_a"	"50"
+		"item_xpos_offcenter_b"	"190"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
@@ -38,7 +38,7 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"140"
+			"wide"			"p0.164"
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
@@ -49,7 +49,7 @@
 			"model_center_x"	"1"
 			"model_ypos"		"5"			
 			"model_tall"		"55"
-			"model_wide"		"82"
+			"model_wide"		"p0.096"
 			"text_ypos"			"54"
 			"text_center"		"1"
 			"name_only"			"1"
@@ -73,7 +73,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"14"
+			"wide"			"p0.016"
 			"tall"			"14"
 			"autoResize"	"0"
 			"visible"		"0"
@@ -88,6 +88,327 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
+	}
+	
+	
+	"RightPanel"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"RightPanel"
+		"xpos"								"rs1"
+		"ypos"								"0"
+		"zpos"								"15"
+		"wide"								"50"
+		"tall"								"f0"
+		"visible"							"1"
+		"enabled"							"1"
+		"bgcolor_override"					"0 0 0 200"
+		"paintbackground"					"1"
+		"paintborder"						"0"
+		"PaintBackgroundType"				"0"		
+	}
+
+	"CustomScout"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomScout"
+		"xpos"										"rs1"
+		"ypos"										"0"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"1"
+		"font"										"ClassIcons 50"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+	
+	}
+
+	"CustomSoldier"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomSoldier"
+		"xpos"										"0"
+		"ypos"										"-50"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"2"
+		"font"										"ClassIcons 50"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+		
+		
+		"pin_to_sibling" "CustomScout"
+	
+	}
+
+	"CustomPyro"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomPyro"
+		"xpos"										"0"
+		"ypos"										"-50"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"3"
+		"font"										"ClassIcons 50"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+		
+		
+	    "pin_to_sibling" "CustomSoldier"
+	
+	}
+	
+		"CustomDemo"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomDemo"
+		"xpos"										"0"
+		"ypos"										"-50"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"4"
+		"font"										"ClassIcons 50"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+		
+		
+	    "pin_to_sibling" "CustomPyro"
+	
+	}
+	
+			"CustomHeavy"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomHeavy"
+		"xpos"										"0"
+		"ypos"										"-50"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"5"
+		"font"										"ClassIcons 50"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+		
+		
+	    "pin_to_sibling" "CustomDemo"
+	
+	}
+	
+				"CustomEngi"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomEngi"
+		"xpos"										"0"
+		"ypos"										"-50"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"6"
+		"font"										"ClassIcons 50"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+		
+		
+	    "pin_to_sibling" "CustomHeavy"
+	
+	}
+	
+					"CustomMedic"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomMedic"
+		"xpos"										"0"
+		"ypos"										"-50"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"7"
+		"font"										"ClassIcons 50"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+		
+		
+	    "pin_to_sibling" "CustomEngi"
+	
+	}
+	
+						"CustomSniper"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomSniper"
+		"xpos"										"0"
+		"ypos"										"-50"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"h"
+		"font"										"ClassIcons 56"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+		
+		
+	    "pin_to_sibling" "CustomMedic"
+	
+	}
+	
+							"CustomSpy"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomSpy"
+		"xpos"										"0"
+		"ypos"										"-50"
+		"zpos"										"20"
+		"wide"										"50"
+		"tall"										"50"
+		"autoResize"								"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"9"
+		"font"										"ClassIcons 50"
+		"textAlignment"								"center"
+		"use_proportional_insets" 					"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"paintbackground" 							"0"
+		
+		"paintbackground"							"0"
+
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"150 150 150 70"
+		"depressedFgColor_override" 				"Black"
+		
+		
+	    "pin_to_sibling" "CustomSniper"
+	
 	}
 	
 	"Background"
@@ -316,11 +637,12 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
-		"pinCorner"		"1"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintbackground"	"0"
+		"proportionaltoparent" "1"
 	}
 	
 	
@@ -475,8 +797,8 @@
 		"font"          "Symbols 12"
 		"labelText"		"["
 		"textAlignment"	"center"
-		"xpos"			"c252"
-		"ypos"			"c150"
+		"xpos"			"cs+6.5"
+		"ypos"			"r90"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -515,8 +837,8 @@
 		"font"          "Symbols 12"
 		"labelText"		"]"
 		"textAlignment"	"center"
-		"xpos"			"c282"
-		"ypos"			"c150"
+		"xpos"			"cs+7.7"
+		"ypos"			"r90"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"

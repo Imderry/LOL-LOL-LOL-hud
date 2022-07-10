@@ -84,8 +84,8 @@ Scheme
 		"HudPanelBackground"		"123 110 59 184"
 		"HudPanelBorder"			"255 255 255 102"
 
-		"HudProgressBarActive"		"240 207 78 255"
-		"HudProgressBarInActive"	"140 120 73 255"
+		"HudProgressBarActive"		"255 255 255 255"
+		"HudProgressBarInActive"	"230 230 230 255"
 		"HudProgressBarActiveLow"	"240 30 30 255"
 		"HudProgressBarInActiveLow"	"240 30 30 99"	
 
@@ -105,9 +105,9 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
-		"ProgressBackground"	"250 234 201 51"
-		"HealthBgGrey"		"72 71 69 255"
+		"ProgressOffWhite"	"255 255 255 255"
+		"ProgressBackground"	"200 200 200 200"
+		"HealthBgGrey"		"150 150 150 230"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		
@@ -3547,6 +3547,194 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
+				"ClassIcons 8"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"8"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"ClassIcons 10"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"10"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 12"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"12"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 14"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"14"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 16"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"16"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 18"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"18"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 20"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"20"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 22"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"22"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 24"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"24"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 25"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"25"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}		
+		"ClassIcons 26"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"26"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"ClassIcons 30"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"30"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"ClassIcons 34"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"34"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 46"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"46"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"ClassIcons 48"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"48"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ClassIcons 50"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"50"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"ClassIcons 54"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"54"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"ClassIcons 56"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"56"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+	
 
       		
 	}
@@ -6401,6 +6589,12 @@ Scheme
 		{
 			"font" "resource/fonts/UchronyArrows-Regular-FFP.ttf"
 			"name" "Renogare Soft"
+		}
+		
+		"13"
+		{
+			"font" "resource/fonts/tf2 class icons.ttf"
+			"name" "TF2 Class Icons V2"
 		}
 	}
 }

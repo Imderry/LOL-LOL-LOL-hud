@@ -461,8 +461,8 @@
 		"font"			"GaretBook16"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
-		"xpos"			"c370"
-		"ypos"			"357"
+		"xpos"			"r60"
+		"ypos"			"r120"
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
@@ -481,8 +481,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartImage"
-		"xpos"			"c375"
-		"ypos"			"358"
+		"xpos"			"-2"
+		"ypos"			"-1"
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
@@ -492,6 +492,8 @@
 		"font"			"Symbols 24"
 		"textAlignment"	"center"
 		"defaultBgColor_override" "0 0 0 0"
+		
+		"pin_to_sibling" "CartButton"
 	}
 
 	"BrowseTheStoreButton"
