@@ -870,4 +870,14 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_blue_bg"
 	}
+	
+		"EscortHilightSwoop"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"EscortHilightSwoop"
+        "xpos"			"9999"		
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/capture_highlight"	
+	}
 }

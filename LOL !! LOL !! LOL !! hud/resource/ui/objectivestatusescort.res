@@ -21,6 +21,22 @@
 		}
 	}
 	
+		"EscortHilightSwoop"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"EscortHilightSwoop"	
+		"xpos"			"73"
+		"ypos"			"10"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"4"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"image"			"../sprites/obj_icons/capture_highlight"
+		"scaleImage"	"1"		
+	}
+	
 	"LevelBar"
 	{
 		"ControlName"	"ImagePanel"
