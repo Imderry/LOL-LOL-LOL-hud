@@ -95,7 +95,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"RightPanel"
-		"xpos"								"rs1"
+		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"15"
 		"wide"								"50"
@@ -112,7 +112,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"CustomScout"
-		"xpos"										"rs1"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"20"
 		"wide"										"50"

@@ -294,7 +294,7 @@
 
 		if_match
 		{
-			"xpos"					"c-390"
+			"xpos"					"35"
 			"wide"					"110"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"

@@ -83,7 +83,7 @@
 	    {
 		    "ControlName"		"ImagePanel"
 		    "fieldName"			"buttonsBG"
-		    "xpos"			"c188"
+		    "xpos"			"rs2.015"
 		    "ypos"			"28"
 		    "zpos"			"1"
 		    "wide"			"122"
@@ -91,6 +91,7 @@
 		    "visible"			"1"
 		    "enabled"			"1"
 		    "fillcolor"         "0 0 0 100"
+			
 	    }
 		
 			"VoteBG2"
@@ -109,7 +110,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"VoteBG2Image"
-		    "xpos"			"c188"
+		    "xpos"			"rs2.015"
 		    "ypos"			"68"
 		    "zpos"			"1"
 		    "wide"			"122"
@@ -341,7 +342,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"649"
+		"xpos"			"rs17"
 		"ypos"			"281"
 		"zpos"          "10"
 		"wide"			"12"
@@ -356,7 +357,7 @@
 		"use_proportional_insets" "1"
 		"font"			"Symbols 12"
 		"command"		"open_rank_type_menu"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -373,7 +374,8 @@
 		"defaultBgColor_override"	"0 0 0 0"
 		"paintborder"		"0"
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"255 255 255 255"		
+		"image_armedcolor"	"255 255 255 255"	
+	
 	}
 
 		"KEKEBGG"
@@ -782,8 +784,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
-		"ypos"			"28"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"43"
 		"tall"			"32"
@@ -792,6 +794,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		
+		"pin_to_sibling" "ButtonsBG"
+		
 		
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
@@ -838,8 +843,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"WatchhBG"
-		"xpos"			"c187"
-		"ypos"			"28"
+		"xpos"			"1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"43"
 		"tall"			"32"
@@ -853,6 +858,8 @@
 		"font"					"Symbols 24"
 		"textAlignment"	"center"
 		"fgcolor_override"		"0 0 0 255"
+		
+		"pin_to_sibling" "WatchStreamButton"
 
 	}
 
@@ -860,8 +867,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"xpos"			"-40"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"40"
 		"tall"			"32"
@@ -870,6 +877,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		
+		"pin_to_sibling" "WatchStreamButton"
 		
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
@@ -917,8 +926,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"QuestBG"
-		"xpos"			"c230"
-		"ypos"			"28"
+		"xpos"			"-3"
+		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"32"
@@ -932,6 +941,8 @@
 		"font"					"Symbols 24"
 		"textAlignment"	"center"
 		"fgcolor_override"		"0 0 0 255"
+		
+		"pin_to_sibling" "QuestLogButton"
 
 	}
 	
@@ -939,8 +950,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c270"
-		"ypos"			"28"
+		"xpos"			"-42"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"40"
 		"tall"			"32"
@@ -948,6 +959,8 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"pin_to_sibling" "QuestLogButton"
 
 		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
 		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
@@ -969,7 +982,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"G"
+			"labelText"		"d"
 			"font"			"Symbols 24"
 			"textAlignment"	"center"
 			"dulltext"		"0"
@@ -993,8 +1006,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"MOTDDDBG"
-		"xpos"			"c269"
-		"ypos"			"29"
+		"xpos"			"1"
+		"ypos"			"-1"
 		"zpos"			"0"
 		"wide"			"40"
 		"tall"			"32"
@@ -1004,10 +1017,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"textinsetx"	"0"
-		"labelText"				"G"
+		"labelText"				"d"
 		"font"					"Symbols 24"
 		"textAlignment"	"center"
 		"fgcolor_override"		"0 0 0 255"
+		
+		"pin_to_sibling" "MOTD_ShowButtonPanel"
 
 	}
 	
@@ -1015,15 +1030,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"500"
-		"wide"			"300"
-		"tall"			"350"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"border"		"noborder"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
@@ -1043,9 +1058,17 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
+				"visible"		"0"
+				"enabled"		"0"
+			}
+			
+			"MOTD_WelcomeToHudPanel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"MOTD_WelcomeToHudPanel"
 				"font"			"GaretBook24"
 				"textAlignment"	"center"
-				"labelText"		"%motdheader%"
+				"labelText"		"Welcome to hud panel"
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"300"
@@ -1056,26 +1079,877 @@
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
 				"fgcolor_override"	"255 255 255 255"
-				"bgcolor_override"	"0 0 0 255"
+				"bgcolor_override"	"0 0 0 100"
+				"roundedcorners"    "0"
 			}
 		}
+		
+		
+        "MOTD_PanelBG"
+	    {
+		    "ControlName"		"EditablePanel"
+		    "fieldName"			"MOTD_PanelBG"
+		    "xpos"			"rs2.015"
+		    "ypos"			"136"
+		    "zpos"			"1"
+		    "wide"			"122"
+		    "tall"			"133"
+		    "visible"			"1"
+		    "enabled"			"1"
+			"paintbackground"   "1"
+			"paintbackgroundtype" "2"
+		    "bgcolor_override"   "0 0 0 100"
+			"roundedcorners"     "0"
+		}
+		
+        "MOTD_PanelBG2"
+	    {
+		    "ControlName"		"EditablePanel"
+		    "fieldName"			"MOTD_PanelBG2"
+		    "xpos"			"rs2.015"
+		    "ypos"			"103"
+		    "zpos"			"1"
+		    "wide"			"122"
+		    "tall"			"30"
+		    "visible"			"1"
+		    "enabled"			"1"
+			"paintbackground"   "1"
+			"paintbackgroundtype" "2"
+		    "bgcolor_override"   "0 0 0 100"
+			"roundedcorners"     "0"
+		}
+		
+		"Hightower1Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Hightower1Button"
+		    "xpos"			"0"
+		    "ypos"			"0"
+		    "zpos"          "10"
+		    "wide"			"40"
+		    "tall"			"30"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"east"
+		    "labeltext" "High"
+			"command"	"engine connect 193.221.192.10:27015"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "MOTD_PanelBG2"
+		
+	    }
+		
+		"Hightower2Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Hightower2Button"
+		    "xpos"			"-40"
+		    "ypos"			"0"
+		    "zpos"          "10"
+		    "wide"			"48"
+		    "tall"			"30"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"west"
+		    "labeltext" "Tower"
+			"command"	"engine connect 193.221.192.27:27015"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Hightower1Button"
+		
+	    }
+		
+		"Hightower3Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Hightower3Button"
+		    "xpos"			"-40"
+		    "ypos"			"0"
+		    "zpos"          "10"
+		    "wide"			"43"
+		    "tall"			"30"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "24/7"
+			"command"	"engine connect 193.221.192.44:27015"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Hightower2Button"
+		
+	    }
+		
+		"Hightower1ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Hightower1ButtonBG"
+		    "xpos"			"-1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"40"
+		    "tall"			"30"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"east"
+		    "labeltext" "High"
+			"command"	"engine connect 193.221.192.10:27015"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Hightower1Button"
+		
+	    }
+		
+		"Hightower2ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Hightower2ButtonBG"
+		    "xpos"			"-1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"48"
+		    "tall"			"30"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"west"
+		    "labeltext" "Tower"
+			"command"	"engine connect 193.221.192.27:27015"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Hightower2Button"
+		
+	    }
+		
+		"Hightower3ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Hightower3ButtonBG"
+		    "xpos"			"-1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"43"
+		    "tall"			"30"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "24/7"
+			"command"	"engine connect 193.221.192.44:27015"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Hightower3Button"
+		
+	    }
+		
+		"Crosshair1Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair1Button"
+		    "xpos"			"0"
+		    "ypos"			"0"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair1"
+			"command"	"engine cl_crosshair_file crosshair1"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "MOTD_PanelBG"
+		
+	    }
+		
+		"Crosshair1ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair1ButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair1"
+			"command"	"engine cl_crosshair_file crosshair1"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair1Button"
+		
+	    }
+		
+		
+		"Crosshair2Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair2Button"
+		    "xpos"			"0"
+		    "ypos"			"-15"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair2"
+			"command"	"engine cl_crosshair_file crosshair2"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair1Button"
+		
+	    }
+		
+		"Crosshair2ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair2ButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair2"
+			"command"	"engine cl_crosshair_file crosshair2"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair2Button"
+		
+	    }
+		
+		"Crosshair3Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair3Button"
+		    "xpos"			"0"
+		    "ypos"			"-15"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair3"
+			"command"	"engine cl_crosshair_file crosshair3"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair2Button"
+		
+	    }
+		
+		"Crosshair3ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair3ButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair3"
+			"command"	"engine cl_crosshair_file crosshair3"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair3Button"
+		
+	    }
+		
+		"Crosshair4Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair4Button"
+		    "xpos"			"0"
+		    "ypos"			"-15"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair4"
+			"command"	"engine cl_crosshair_file crosshair4"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair3Button"
+		
+	    }
+		
+		"Crosshair4ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair4ButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair4"
+			"command"	"engine cl_crosshair_file crosshair4"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair4Button"
+		
+	    }
+		
+		
+		"Crosshair5Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair5Button"
+		    "xpos"			"0"
+		    "ypos"			"-15"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair5"
+			"command"	"engine cl_crosshair_file crosshair5"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair4Button"
+		
+	    }
+		
+		"Crosshair5ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair5ButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair5"
+			"command"	"engine cl_crosshair_file crosshair5"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair5Button"
+		
+	    }
+		
+		"Crosshair6Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair6Button"
+		    "xpos"			"0"
+		    "ypos"			"-15"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair6"
+			"command"	"engine cl_crosshair_file crosshair6"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair5Button"
+		
+	    }
+		
+		"Crosshair6ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair6ButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair6"
+			"command"	"engine cl_crosshair_file crosshair6"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair6Button"
+		
+	    }
+		
+		"Crosshair7Button"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair7Button"
+		    "xpos"			"0"
+		    "ypos"			"-15"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair7"
+			"command"	"engine cl_crosshair_file crosshair7"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair6Button"
+		
+	    }
+		
+		"Crosshair7ButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"Crosshair7ButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "Crosshair7"
+			"command"	"engine cl_crosshair_file crosshair7"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair7Button"
+		
+	    }
+		
+		"CrosshairDefaultButton"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"CrosshairDefaultButton"
+		    "xpos"			"0"
+		    "ypos"			"-15"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "CrosshairDefault"
+			"command"	"engine cl_crosshair_file default"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "Crosshair7Button"
+		
+	    }
+		
+		"CrosshairDefaultButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"CrosshairDefaultButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "CrosshairDefault"
+			"command"	"engine cl_crosshair_file default"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "CrosshairDefaultButton"
+		
+	    }
+		
+		"CrosshairNoneButton"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"CrosshairNoneButton"
+		    "xpos"			"0"
+		    "ypos"			"-15"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "CrosshairNone"
+			"command"	"engine exec crosshairnone"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"255 255 255 255"
+		    "defaultFgColor_override"	"255 255 255 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "CrosshairDefaultButton"
+		
+	    }
+		
+		"CrosshairNoneButtonBG"
+	    {
+		    "ControlName"	"CExImageButton"
+		    "fieldName"		"CrosshairNoneButtonBG"
+		    "xpos"			"1"
+		    "ypos"			"-1"
+		    "zpos"          "10"
+		    "wide"			"122"
+		    "tall"			"15"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "font"			"GaretHeavy16"
+		    "textAlignment"	"center"
+		    "labeltext" "CrosshairNone"
+			"command"	"engine exec crosshairnone"	
+			"actionsignallevel"	"2"
+
+		    "sound_depressed"	"UI/buttonclick.wav"
+		    "sound_released"	"UI/buttonclickrelease.wav"
+		    "paintbackground" "1"
+			
+		    "armedBgColor_override"		"100 100 100 70"
+		    "defaultBgColor_override"	"0 0 0 0"
+		    "armedFgColor_override"		"0 0 0 255"
+		    "defaultFgColor_override"	"0 0 0 255"
+						
+	        "border_default"	"noborder"
+			
+			"pin_to_sibling" "CrosshairNoneButton"
+		
+	    }
+		
+
 		
 		"MOTD_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"282"
-			"ypos"			"4"
-			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
+			"xpos"			"r123"
+			"ypos"			"28"
+			"zpos"			"10003"
+			"wide"			"40"
+			"tall"			"32"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		"-"
-			"font"			"Symbols 20"
+			"labeltext"		"e"
+			"font"			"Symbols 24"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"0"
+			"actionsignallevel"	"2"
+
+			"navDown"			"MOTD_URLButton"
+			"navActivate"		"<QuickplayButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"Command"		"motd_hide"
+			
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "255 255 255 255"
+			"defaultBgColor_override" "0 0 0 100"
+			"armedBgColor_override" "150 150 150 100"
+			"depressedFgColor_override" "255 255 255 0"
+			"depressedBgColor_override" "255 255 255 0"
+
+            "roundedcorners" "0"
+			
+			
+		}
+		
+		"MOTD_CloseButtonBG"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"MOTD_CloseButtonBG"
+			"xpos"			"1"
+			"ypos"			"-1"
+			"zpos"			"10003"
+			"wide"			"40"
+			"tall"			"32"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labeltext"		"e"
+			"font"			"Symbols 24"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1091,11 +1965,18 @@
 			
 			"paintbackground"	"0"
 			
-			//"defaultFgColor_override" "235 226 202 255"
-			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "255 255 255 150"
-			"depressedFgColor_override" "255 255 255 255"			
+			"defaultFgColor_override" "0 0 0 255"
+			"armedFgColor_override" "0 0 0 255"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "0 0 0 0"
+			"depressedFgColor_override" "255 255 255 0"
+			"depressedBgColor_override" "255 255 255 0"
+
+            "roundedcorners" "0"
+			
+			"pin_to_sibling" "MOTD_CloseButton"
+			
+			
 		}
 	
              
@@ -1127,44 +2008,25 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"LabelDark"
-			"wrap"			"1"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"MOTD_Label"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"GaretBook12"
-			"labelText"		"%motddate%"
-			"textAlignment"	"north-west"
-			"xpos"			"10"
-			"ypos"			"40"
-			"wide"			"300"
-			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"MOTD_TitleImageBg"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MOTD_TitleImageBg"
-			"xpos"			"cs-0.5"
-			"ypos"			"55"
-			"zpos"			"99"
-			"wide"			"250"
-			"tall"			"150"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"item_bg"
-			"scaleImage"	"1"
-			"proportionaltoparent" "1"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			""
 		}
 		
 		"MOTD_TitleImageContainer"
@@ -1174,9 +2036,9 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"100"
-			"wide"			"250"
-			"tall"			"150"
-			"visible"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
 			"proportionaltoparent" "1"
 			
 			"MOTD_TitleImage"
@@ -1199,82 +2061,28 @@
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
-			"xpos"			"20"
-			"ypos"			"215"
-			"wide"			"280"
-			"tall"			"115"
-			"PaintBackgroundType"	"2"
-			"fgcolor"		"LabelDark"
+			"wide"			"0"
+			"tall"			"0"
 			
 			"MOTD_TextPanel"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"MOTD_TextPanel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"250"
-				"tall"			"300"
-				"visible"		"1"
-				"PaintBackgroundType"	"2"
 			
 				"MOTD_TextLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
-					"font"			"GaretBook12"
-					"labelText"		"%motdtext%"
-					"textAlignment"	"north-west"
-					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"250"
-					"tall"			"300"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"fgcolor"		"LabelDark"
-					"wrap"			"1"
 				}
 			}
 		}
 		
 		"MOTD_URLButton"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"URLLabel"
 			"fieldName"		"MOTD_URLButton"
-			"xpos"			"75"
-			"ypos"			"rs1.2"
-			"wide"			"150"
-			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"#MMenu_MOTD_URL"
-			"textinsetx"	"20"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"command"		"motd_viewurl"
-			"proportionaltoparent" "1"
-			"actionsignallevel"	"2"
-
-
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_PrevButton"
-			"navRight"		"MOTD_NextButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "235 226 202 255"
+			"visible"		"0"
+			"enabled"		"0"
 		}	
 		
 		"MOTD_PrevButton"
@@ -1373,157 +2181,6 @@
 			}
 		}
 	}	
-
-	"Notifications_Panel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
-		"zpos"			"10"
-		"wide"			"210"
-		"tall"			"80"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		""
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"Notifications_ShowButtonPanel"
-		"navRight"		"MOTD_ShowButtonPanel"
-		"navToRelay"	"Notifications_CloseButton"
-		
-		"NotiBG"
-	    {
-		    "ControlName"		"ImagePanel"
-		    "fieldName"			"NotiBG"
-		    "xpos"				"0"
-		    "ypos"				"0"
-		    "zpos"				"-10"
-            "wide"				"250"
-		    "tall"				"150"
-		    "visible"			"1"
-		    "enabled"			"1"
-		    "fillcolor"         "0 0 0 100"
-	    
-		}
-		
-		"Notifications_CloseButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"Notifications_CloseButton"
-			"xpos"			"186"
-			"ypos"			"8"
-			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labeltext"		"-"
-			"font"			"Symbols 16"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
-			"actionsignallevel"	"2"
-
-			"Command"		"noti_hide"
-			"navActivate"	"<QuickplayButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "255 0 0 200"
-			"armedFgColor_override" "155 0 0 200"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"0"
-				"enabled"		"0"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
-		}		
-	
-		"Notifications_TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Notifications_TitleLabel"
-			"font"			"GaretBook16"
-			"labelText"		"%notititle%"
-			"textAlignment"	"north-west"
-			"xpos"			"12"
-			"ypos"			"8"
-		    "zpos"          "2"
-			"wide"			"250"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"255 255 255 255"
-			"wrap"			"1"
-		}
-		
-		"Notifications_TitleLabelBG"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Notifications_TitleLabelBG"
-			"font"			"GaretBook16"
-			"labelText"		"%notititle%"
-			"textAlignment"	"north-west"
-			"xpos"			"13"
-			"ypos"			"8"
-			"zpos"          "0"
-			"wide"			"250"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"0 0 0 255"
-			"wrap"			"1"
-		}
-		
-		"Notifications_Scroller"
-		{
-			"ControlName"	"ScrollableEditablePanel"
-			"fieldName"		"Notifications_Scroller"
-			"xpos"			"8"
-			"ypos"			"25"
-			"wide"			"210"
-			"tall"			"135"
-			"PaintBackgroundType"	"2"
-			"paintbackground"	"0"
-			"fgcolor_override"	"255 255 255 255"
-			
-			"Notifications_Control"
-			{
-				"ControlName"	"CMainMenuNotificationsControl"
-				"fieldName"		"Notifications_Control"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"220"
-				"tall"			"135"
-				"visible"		"1"
-			}
-		}
-	}
 	
 	"VRBGPanel"
 	{
@@ -2263,12 +2920,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c270"
-		"ypos"			"68"
+		"xpos"			"0"
+		"ypos"			"-40"
 		"zpos"			"11"
 		"wide"			"40"
 		"tall"			"32"
 		"visible"		"1"
+		
+		"pin_to_sibling" "MOTD_ShowButtonPanel"
 
 		"navLeft"		"ResumeGameButton"
 		"navRight"		"CallVoteButton"
@@ -2333,12 +2992,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c188"
-		"ypos"			"68"
+		"xpos"			"0"
+		"ypos"			"-40"
 		"zpos"			"12"
 		"wide"			"38"
 		"tall"			"32"
 		"visible"		"1"
+		
+		"pin_to_sibling" "WatchStreamButton"
+
 
 		"navLeft"		"ReportPlayerButton"
 		"navDown"		"QuickplayChangeButton"
@@ -2409,12 +3071,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c226"
-		"ypos"			"68"
+		"xpos"			"0"
+		"ypos"			"-40"
 		"zpos"			"12"
 		"wide"			"40"
 		"tall"			"32"
 		"visible"		"1"
+		
+		"pin_to_sibling" "QuestLogButton"
 
 		"navLeft"		"CallVoteButton"
 		"navDown"		"QuickplayChangeButton"

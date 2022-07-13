@@ -25,7 +25,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"EscortHilightSwoop"	
-		"xpos"			"73"
+		"xpos"			"9999"
 		"ypos"			"10"
 		"zpos"			"0"
 		"wide"			"50"

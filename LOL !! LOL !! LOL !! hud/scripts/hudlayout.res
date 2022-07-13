@@ -210,7 +210,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"223"
+		"xpos"					"cs-1.67"
 		"xpos_minmode"			"cs-0.55"
 		"ypos"					"r230"
 		"ypos_minmode"			"c30"

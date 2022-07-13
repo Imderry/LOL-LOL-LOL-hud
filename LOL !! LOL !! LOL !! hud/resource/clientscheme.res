@@ -710,7 +710,7 @@ Scheme
 				"weight"		"800"
 			}
 		}
-		CenterPrintText
+		CenterPrintText  // server name font
 		{
 			// note that this scales with the screen resolution
 			"1"

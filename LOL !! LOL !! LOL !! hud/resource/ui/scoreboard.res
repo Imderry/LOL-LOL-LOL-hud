@@ -50,8 +50,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueTeamImage"
-		"xpos"			"7"
-		"ypos"			"10"
+		"xpos"			"4"
+		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"60"
 		"tall"			"60"
@@ -59,6 +59,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/scoreboard/blu_scoreboard"
 		"scaleImage"		"1"
+		
 
 		if_mvm
 		{
@@ -117,7 +118,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamImage"
-		"xpos"			"cs+1.3"
+		"xpos"			"80"
 		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"60"
@@ -128,9 +129,11 @@
 		"scaleImage"		"1"
 		
 		"pin_to_sibling" "BlueTeamImage"
-		
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
+	    "pin_corner_to_sibling" "PIN_TOPLEFT"
 	    "pin_to_sibling_corner" "PIN_TOPRIGHT"
+		
+		
+		
 
 		if_mvm
 		{
@@ -214,8 +217,8 @@
 		"fieldName"		"BlueTeamScore"
 		"font"			"GaretBook42"
 		"labelText"		"%blueteamscore%"
-		"textAlignment"		"east"
-		"xpos"			"-10"
+		"textAlignment"		"center"
+		"xpos"			"-20"
 		"ypos"			"0" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -224,6 +227,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"pin_to_sibling" "BlueTeamImage"
 		
 		
 		if_mvm
@@ -238,8 +243,8 @@
 		"font"			"GaretBook42"
 		"fgcolor"		"0 0 0 255"
 		"labelText"		"%blueteamscore%"
-		"textAlignment"		"east"
-		"xpos"			"-1"
+		"textAlignment"		"center"
+		"xpos"			"-21"
 		"ypos"			"-1" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -249,7 +254,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"	"BlueTeamScore"
+		"pin_to_sibling"	"BlueTeamImage"
 		
 		if_mvm
 		{
@@ -262,15 +267,17 @@
 		"fieldName"		"BlueTeamPlayerCount"
 		"font"			"GaretBook22"
 		"labelText"		"%blueteamplayercount%"
-		"textAlignment"		"west"
-		"xpos"			"80"
-		"ypos"			"42"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"-40"
 		"wide"			"160"
 		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"pin_to_sibling"	"BlueTeamScore"
 		
 		if_mvm
 		{
@@ -305,8 +312,8 @@
 		"fieldName"		"RedTeamScore"
 		"font"			"GaretBook42"
 		"labelText"		"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"			"cs+1.2"
+		"textAlignment"		"center"
+		"xpos"			"-20"
 		"ypos"			"0" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -315,6 +322,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"pin_to_sibling" "RedTeamImage"
 		
 		if_mvm
 		{
@@ -328,8 +337,8 @@
 		"font"			"GaretBook42"
 		"fgcolor"		"0 0 0 255"
 		"labelText"		"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"			"-1"
+		"textAlignment"		"center"
+		"xpos"			"-21"
 		"ypos"			"-1"
 		"zpos"			"4"
 		"wide"			"100"
@@ -339,7 +348,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"	"RedTeamScore"
+		"pin_to_sibling" "RedTeamImage"
 		
 		if_mvm
 		{
@@ -352,15 +361,17 @@
 		"fieldName"		"RedTeamPlayerCount"
 		"font"			"GaretBook22"
 		"labelText"		"%redteamplayercount%"
-		"textAlignment"		"east"
-		"xpos"			"cs-0.15"
-		"ypos"			"42"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"-40"
 		"wide"			"160"
 		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"pin_to_sibling"	"RedTeamScore"
 		
 		if_mvm
 		{
@@ -621,7 +632,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"-10"
+		"xpos"			"9999"
 		"ypos"			"185"
 		"zpos"			"10"		
 		"wide"			"130"
@@ -629,7 +640,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		
 		"render_texture"	"0"
 		"fov"			"12"
@@ -738,10 +749,10 @@
 			"Spy"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
+				"angles_x"		"-50"
 				"angles_y"		"160"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"20"
 				"origin_y"		"0"
 				"origin_z"		"-95"
 			}
@@ -784,7 +795,7 @@
 		"font"			"Garetbook18"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
-		"xpos"			"115"
+		"xpos"			"30"
 		"ypos"			"377"
 		"zpos"			"3"
 		"wide"			"300"
@@ -806,9 +817,9 @@
 		"fieldName"		"ServerLabelNew"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%server%"
-		"textAlignment"		"east"
-		"xpos"			"315"
-		"ypos"			"375"
+		"textAlignment"		"center"
+		"xpos"			"rs1.5"
+		"ypos"			"50"
 		"zpos"			"3"
 		"wide"			"265"
 		"tall"			"12"
@@ -826,19 +837,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%mapname%"
-		"textAlignment"	"east"
- 		"xpos"			"cs-0.45"
-		"ypos"			"r97"
-		"zpos"			"3"
-		"wide"			"265"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"236 227 203 255"
+		"visible"		"0"
+		"enabled"		"0"
 
 		if_mvm
 		{
@@ -1195,9 +1195,9 @@
 			"fieldName"			"Kek"
 			"font"				"GaretBook36"
 			"labelText"			":"
-			"textAlignment"		"east"
-			"xpos"				"120"
-			"ypos"				"-5"
+			"textAlignment"		"center"
+			"xpos"				"55"
+			"ypos"				"-7"
 			"zpos"				"3"
 			"wide"				"40"
 			"tall"				"40"
@@ -1213,7 +1213,7 @@
 			"fieldName"			"KekBG"
 			"font"				"GaretBook36"
 			"labelText"			":"
-			"textAlignment"		"east"
+			"textAlignment"		"center"
 	        "fgcolor"       	"0 0 0 255"
 			"xpos"				"-1"
 			"ypos"				"-1"
@@ -1252,7 +1252,7 @@
 			"labelText"			"%kills%"
 	        "fgcolor"       	"255 255 255 255"
 			"textAlignment"		"Center"
-			"xpos"				"105"
+			"xpos"				"20"
 			"ypos"				"-5"
 			"zpos"				"3"
 			"wide"				"60"
@@ -1270,8 +1270,8 @@
 			"labelText"			"%kills%"
 			"fgcolor" 			"0 0 0 255"
 			"textAlignment"		"Center"
-			"xpos"				"-2"
-			"ypos"				"-2"
+			"xpos"				"-1"
+			"ypos"				"-1"
 			"zpos"				"3"
 			"wide"				"60"
 			"tall"				"40"
@@ -1308,7 +1308,7 @@
 			"labelText"			"%deaths%"
 	        "fgcolor"       	"255 255 255 255"
 			"textAlignment"		"Center"
-			"xpos"				"150"
+			"xpos"				"70"
 			"ypos"				"-5"
 			"zpos"				"3"
 			"wide"				"60"
@@ -1327,8 +1327,8 @@
 			"labelText"			"%deaths%"
 			"fgcolor" 			"0 0 0 255"
 			"textAlignment"		"Center"
-			"xpos"				"-2"
-			"ypos"				"-2"
+			"xpos"				"-1"
+			"ypos"				"-1"
 			"zpos"				"3"
 			"wide"				"60"
 			"tall"				"40"
@@ -1531,19 +1531,43 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"GaretBook12"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
-			"ypos"			"30"
+			"xpos"			"90"
+			"ypos"			"-10"
 			"zpos"			"3"
-			"wide"			"0"
-			"tall"			"0"
+			"wide"			"95"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}						
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"pin_to_sibling"	"HealingTanLight"
+		}
+		
+		"HealingLabelBG"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"HealingLabelBG"
+			"font"			"GaretBook12"
+			"labelText"		"#TF_ScoreBoard_HealingLabel"
+			"textAlignment"		"east"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"       "0 0 0 255"
+			
+			"pin_to_sibling"	"HealingLabel"
+		}
+
 		"InvulnLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1585,7 +1609,7 @@
 			"font"			"GaretBook12"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"			"75"
+			"xpos"			"100"
 			"ypos"			"-10"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1596,7 +1620,28 @@
 			"enabled"		"1"
 			
 			"pin_to_sibling"	"HeadshotsTanLight"	
-		}						
+		}
+
+		"HeadshotsLabelBG"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"HeadshotsLabelBG"
+			"font"			"GaretBook12"
+			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
+			"textAlignment"		"east"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"       "0 0 0 255"
+			
+			"pin_to_sibling"	"HeadshotsLabel"	
+		}		
 		"Healing"
 		{
 			"ControlName"		"CExLabel"
@@ -1613,7 +1658,48 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		
+		}	
+		"HealingTanLight"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"HealingTanLight"
+			"font"				"GaretBook24"
+			"labelText"			"%healing%"
+	        "fgcolor"       	"255 255 255 255"
+			"textAlignment"		"Center"
+			"xpos"				"cs0"
+			"ypos"				"10"
+			"zpos"				"3"
+			"wide"				"60"
+			"tall"				"40"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}
+		
+		"HealingBG"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"HealingBG"
+			"font"				"GaretBook24"
+			"labelText"			"%healing%"
+	        "fgcolor"       	"0 0 0 255"
+			"textAlignment"		"Center"
+			"xpos"				"-1"
+			"ypos"				"-1"
+			"zpos"				"3"
+			"wide"				"60"
+			"tall"				"40"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			
+			"pin_to_sibling" "HealingTanLight"
+		}
+								
 		"Invuln"
 		{
 			"ControlName"		"CExLabel"
@@ -1673,7 +1759,7 @@
 			"font"				"GaretBook24"
 			"labelText"			"%headshots%"
 	        "fgcolor"       	"255 255 255 255"
-			"textAlignment"		"Center"
+			"textAlignment"		"west"
 			"xpos"				"cs+1.9"
 			"ypos"				"10"
 			"zpos"				"3"
@@ -1693,9 +1779,9 @@
 			"font"				"GaretBook24"
 			"labelText"			"%headshots%"
 			"fgcolor" 			"0 0 0 255"
-			"textAlignment"		"Center"
-			"xpos"				"-2"
-			"ypos"				"-2"
+			"textAlignment"		"west"
+			"xpos"				"-1"
+			"ypos"				"-1"
 			"zpos"				"3"
 			"wide"				"60"
 			"tall"				"40"
@@ -1714,7 +1800,7 @@
 			"font"			"GaretBook12"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
-			"xpos"			"75"
+			"xpos"			"100"
 			"ypos"			"-10"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1725,6 +1811,27 @@
 			"enabled"		"1"
 			
 			"pin_to_sibling"	"BackstabsTanLight"	
+		}
+		
+		"BackstabsLabelBG"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BackstabsLabelBG"
+			"font"			"GaretBook12"
+			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
+			"textAlignment"		"east"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"       "0 0 0 255"
+			
+			"pin_to_sibling"	"BackstabsLabel"	
 		}
 		"Backstabs"
 		{
@@ -1750,7 +1857,7 @@
 			"font"				"GaretBook24"
 			"labelText"			"%backstabs%"
 	        "fgcolor"       	"255 255 255 255"
-			"textAlignment"		"Center"
+			"textAlignment"		"west"
 			"xpos"				"cs+1.9"
 			"ypos"				"-10"
 			"zpos"				"3"
@@ -1769,9 +1876,9 @@
 			"font"				"GaretBook24"
 			"labelText"			"%backstabs%"
 			"fgcolor" 			"0 0 0 255"
-			"textAlignment"		"Center"
-			"xpos"				"-2"
-			"ypos"				"-2"
+			"textAlignment"		"west"
+			"xpos"				"-1"
+			"ypos"				"-1"
 			"zpos"				"3"
 			"wide"				"60"
 			"tall"				"40"
@@ -1855,18 +1962,41 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"GaretBook12"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
-			"xpos"			"445"
-			"ypos"			"30"
+			"xpos"			"90"
+			"ypos"			"-10"
 			"zpos"			"3"
-			"wide"			"0"
-			"tall"			"0"
+			"wide"			"95"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"pin_to_sibling"	"DamageTanLight"	
+		}
+		
+		"DamageLabelBG"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabelBG"
+			"font"			"GaretBook12"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"	"east"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"       "0 0 0 255" 
+    			
+			"pin_to_sibling"	"DamageLabel"	
 		}
 		"Damage"
 		{
@@ -1884,6 +2014,46 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+		}
+		
+		"DamageTanLight"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"DamageTanLight"
+			"font"				"GaretBook24"
+			"labelText"			"%damage%"
+	        "fgcolor"       	"255 255 255 255"
+			"textAlignment"		"Center"
+			"xpos"				"cs0"
+			"ypos"				"-10"
+			"zpos"				"3"
+			"wide"				"60"
+			"tall"				"40"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}
+		
+		"DamageBG"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"DamageBG"
+			"font"				"GaretBook24"
+			"labelText"			"%damage%"
+	        "fgcolor"       	"0 0 0 255"
+			"textAlignment"		"Center"
+			"xpos"				"-1"
+			"ypos"				"-1"
+			"zpos"				"3"
+			"wide"				"60"
+			"tall"				"40"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			
+			"pin_to_sibling" "DamageTanLight"
 		}
 	}
 
