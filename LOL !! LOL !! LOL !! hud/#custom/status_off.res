@@ -94,7 +94,7 @@
 		"fieldName"		"PlayerStatusHealthValueBG"
 		"xpos"			"-2"
 		"xpos_minmode"	"1"
-		"ypos"			"1"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"250"
 		"tall"			"120"
@@ -105,6 +105,8 @@
 		"font"			"GaretBook36"
 		"font_minmode"	"GaretHeavy34"
 		"fgcolor"		"0 0 0 255"
+		
+		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
 	
 	"PlayerStatusMaxHealthValue"

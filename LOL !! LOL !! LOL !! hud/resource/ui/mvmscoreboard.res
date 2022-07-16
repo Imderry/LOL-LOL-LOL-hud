@@ -4,13 +4,14 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
-		"ypos"				"8"
-		"zpos"				"0"
-		"wide"				"600"
-		"tall"				"67"
-		"visible"			"1"
-		"enabled"			"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"0"
+		"wide"						"600"
+		"tall"						"67"
+		"visible"					"1"
+		"enabled"					"1"
+		
 		
 		"verbose"			"1"
 	}
@@ -22,22 +23,22 @@
 		"font"			"GaretBook16"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
-		"xpos"			"290"
+		"xpos"			"cs-0.5"
 		"ypos"			"375"
 		"wide"			"290"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
-		"ypos"			"30"
-		"wide"			"150"
-		"tall"			"20"
-		"visible"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		
 		"DifficultyLabel"
 		{
@@ -75,7 +76,7 @@
 		"xpos"			"25"
 		"ypos"			"75"
 		"zpos"			"-1"
-		"wide"			"550"
+		"wide"			"p0.647"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
@@ -94,9 +95,9 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"35"
-		"ypos"			"79"
-		"wide"			"530"
+		"xpos"			"-15"
+		"ypos"			"0"
+		"wide"			"p0.623"
 		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -105,17 +106,36 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"White"
+		
+		"pin_to_sibling" "PlayerListBackground"
+	}
+	
+		"quickpin"
+	{
+		"ControlName"	"cexbutton"
+		"fieldName"		"quickpin"
+		"xpos" "cs-0.5"
+		"ypos" "220"
+		"wide"			"f0"
+		"tall"			"25"
+		"labeltext" ""
+		"visible" "1"
+		"enabled" "1"
+		"proportionaltoparent" "1"
+		"paintbackground" "0"
 	}
 	
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
-		"ypos"			"230"
-		"wide"			"400"
+		"xpos"			"-110"
+		"ypos"			"-10"
+		"wide"			"p0.470"
 		"tall"			"205"
 		"visible"		"1"
+		
+		"pin_to_sibling" "quickpin"
 		
 		"CreditStatsBackground"
 		{
